@@ -2,8 +2,8 @@
 # Vivado v2019.1 (64-bit)
 # SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
 # IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
-# Start of session at: Sat Mar 21 18:34:54 2020
-# Process ID: 39318
+# Start of session at: Sat Mar 21 20:37:11 2020
+# Process ID: 45895
 # Current directory: /home/cyx/Desktop/Ex2-Computer-Principles
 # Command line: vivado
 # Log file: /home/cyx/Desktop/Ex2-Computer-Principles/vivado.log
@@ -11,4 +11,51 @@
 #-----------------------------------------------------------
 start_gui
 open_project /home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.xpr
+update_compile_order -fileset sim_1
 update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+close_project
+open_project /home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.xpr
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top CYX_ALU_Core_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+open_wave_config /home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_fsm_tb_behav.wcfg
+source CYX_ALU_Core_tb.tcl
+current_wave_config {EDA2_fsm_tb_behav.wcfg}
+add_wave {{/CYX_ALU_Core_tb/A_inv_tb}} {{/CYX_ALU_Core_tb/B_inv_tb}} {{/CYX_ALU_Core_tb/Oper_tb}} {{/CYX_ALU_Core_tb/RES_tb}} {{/CYX_ALU_Core_tb/cpr_res_tb}} {{/CYX_ALU_Core_tb/of_tb}} {{/CYX_ALU_Core_tb/z_tb}} {{/CYX_ALU_Core_tb/cr_tb}} {{/CYX_ALU_Core_tb/A_tb}} {{/CYX_ALU_Core_tb/B_tb}} 
+save_wave_config {/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_fsm_tb_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config /home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_fsm_tb_behav.wcfg
+source CYX_ALU_Core_tb.tcl
+close_sim
+launch_simulation
+open_wave_config /home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_fsm_tb_behav.wcfg
+source CYX_ALU_Core_tb.tcl
+close_sim
+launch_simulation
+open_wave_config /home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_fsm_tb_behav.wcfg
+source CYX_ALU_Core_tb.tcl
+close_sim
+launch_simulation
+open_wave_config /home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_fsm_tb_behav.wcfg
+source CYX_ALU_Core_tb.tcl
+close_sim
+launch_simulation
+open_wave_config /home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_fsm_tb_behav.wcfg
+source CYX_ALU_Core_tb.tcl
+close_sim
+launch_simulation
+open_wave_config /home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_fsm_tb_behav.wcfg
+source CYX_ALU_Core_tb.tcl
+close_sim
+launch_simulation
+open_wave_config /home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_fsm_tb_behav.wcfg
+source CYX_ALU_Core_tb.tcl
+close_sim

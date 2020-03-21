@@ -3,109 +3,61 @@
    <wave_state>
    </wave_state>
    <db_ref_list>
-      <db_ref path="EDA2_TOP_tb_behav.wdb" id="1">
+      <db_ref path="CYX_ALU_Core_tb_behav.wdb" id="1">
          <top_modules>
-            <top_module name="EDA2_TOP_tb" />
+            <top_module name="CYX_ALU_Core_tb" />
             <top_module name="glbl" />
          </top_modules>
       </db_ref>
    </db_ref_list>
    <zoom_setting>
       <ZoomStartTime time="0fs"></ZoomStartTime>
-      <ZoomEndTime time="1042191731fs"></ZoomEndTime>
+      <ZoomEndTime time="2706195336fs"></ZoomEndTime>
       <Cursor1Time time="174256758000fs"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
-      <NameColumnWidth column_width="134"></NameColumnWidth>
+      <NameColumnWidth column_width="129"></NameColumnWidth>
       <ValueColumnWidth column_width="79"></ValueColumnWidth>
    </column_width_setting>
-   <WVObjectSize size="22" />
-   <wvobject type="logic" fp_name="/EDA2_TOP_tb/my_core_tb/clk100m">
-      <obj_property name="ElementShortName">clk100m</obj_property>
-      <obj_property name="ObjectShortName">clk100m</obj_property>
+   <WVObjectSize size="10" />
+   <wvobject type="logic" fp_name="/CYX_ALU_Core_tb/A_inv_tb">
+      <obj_property name="ElementShortName">A_inv_tb</obj_property>
+      <obj_property name="ObjectShortName">A_inv_tb</obj_property>
    </wvobject>
-   <wvobject type="array" fp_name="/EDA2_TOP_tb/my_core_tb/input_key">
-      <obj_property name="ElementShortName">input_key[3:0]</obj_property>
-      <obj_property name="ObjectShortName">input_key[3:0]</obj_property>
+   <wvobject type="logic" fp_name="/CYX_ALU_Core_tb/B_inv_tb">
+      <obj_property name="ElementShortName">B_inv_tb</obj_property>
+      <obj_property name="ObjectShortName">B_inv_tb</obj_property>
    </wvobject>
-   <wvobject type="array" fp_name="/EDA2_TOP_tb/my_core_tb/time1_digi">
-      <obj_property name="ElementShortName">time1_digi[3:0]</obj_property>
-      <obj_property name="ObjectShortName">time1_digi[3:0]</obj_property>
+   <wvobject type="array" fp_name="/CYX_ALU_Core_tb/Oper_tb">
+      <obj_property name="ElementShortName">Oper_tb[1:0]</obj_property>
+      <obj_property name="ObjectShortName">Oper_tb[1:0]</obj_property>
    </wvobject>
-   <wvobject type="array" fp_name="/EDA2_TOP_tb/my_core_tb/time0_digi">
-      <obj_property name="ElementShortName">time0_digi[3:0]</obj_property>
-      <obj_property name="ObjectShortName">time0_digi[3:0]</obj_property>
+   <wvobject type="array" fp_name="/CYX_ALU_Core_tb/RES_tb">
+      <obj_property name="ElementShortName">RES_tb[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RES_tb[31:0]</obj_property>
    </wvobject>
-   <wvobject type="array" fp_name="/EDA2_TOP_tb/my_core_tb/coin1_digi">
-      <obj_property name="ElementShortName">coin1_digi[3:0]</obj_property>
-      <obj_property name="ObjectShortName">coin1_digi[3:0]</obj_property>
+   <wvobject type="logic" fp_name="/CYX_ALU_Core_tb/cpr_res_tb">
+      <obj_property name="ElementShortName">cpr_res_tb</obj_property>
+      <obj_property name="ObjectShortName">cpr_res_tb</obj_property>
    </wvobject>
-   <wvobject type="array" fp_name="/EDA2_TOP_tb/my_core_tb/coin0_digi">
-      <obj_property name="ElementShortName">coin0_digi[3:0]</obj_property>
-      <obj_property name="ObjectShortName">coin0_digi[3:0]</obj_property>
+   <wvobject type="logic" fp_name="/CYX_ALU_Core_tb/of_tb">
+      <obj_property name="ElementShortName">of_tb</obj_property>
+      <obj_property name="ObjectShortName">of_tb</obj_property>
    </wvobject>
-   <wvobject type="array" fp_name="/EDA2_TOP_tb/my_core_tb/fsm_state">
-      <obj_property name="ElementShortName">fsm_state[2:0]</obj_property>
-      <obj_property name="ObjectShortName">fsm_state[2:0]</obj_property>
+   <wvobject type="logic" fp_name="/CYX_ALU_Core_tb/z_tb">
+      <obj_property name="ElementShortName">z_tb</obj_property>
+      <obj_property name="ObjectShortName">z_tb</obj_property>
    </wvobject>
-   <wvobject type="logic" fp_name="/EDA2_TOP_tb/my_core_tb/clk0p1k">
-      <obj_property name="ElementShortName">clk0p1k</obj_property>
-      <obj_property name="ObjectShortName">clk0p1k</obj_property>
+   <wvobject type="logic" fp_name="/CYX_ALU_Core_tb/cr_tb">
+      <obj_property name="ElementShortName">cr_tb</obj_property>
+      <obj_property name="ObjectShortName">cr_tb</obj_property>
    </wvobject>
-   <wvobject type="logic" fp_name="/EDA2_TOP_tb/my_core_tb/fsm_start">
-      <obj_property name="ElementShortName">fsm_start</obj_property>
-      <obj_property name="ObjectShortName">fsm_start</obj_property>
+   <wvobject type="array" fp_name="/CYX_ALU_Core_tb/A_tb">
+      <obj_property name="ElementShortName">A_tb[31:0]</obj_property>
+      <obj_property name="ObjectShortName">A_tb[31:0]</obj_property>
    </wvobject>
-   <wvobject type="logic" fp_name="/EDA2_TOP_tb/my_core_tb/fsm_reset">
-      <obj_property name="ElementShortName">fsm_reset</obj_property>
-      <obj_property name="ObjectShortName">fsm_reset</obj_property>
-   </wvobject>
-   <wvobject type="logic" fp_name="/EDA2_TOP_tb/my_core_tb/fsm_clear">
-      <obj_property name="ElementShortName">fsm_clear</obj_property>
-      <obj_property name="ObjectShortName">fsm_clear</obj_property>
-   </wvobject>
-   <wvobject type="logic" fp_name="/EDA2_TOP_tb/my_core_tb/fsm_confirm">
-      <obj_property name="ElementShortName">fsm_confirm</obj_property>
-      <obj_property name="ObjectShortName">fsm_confirm</obj_property>
-   </wvobject>
-   <wvobject type="logic" fp_name="/EDA2_TOP_tb/my_core_tb/fsm_chrg_end">
-      <obj_property name="ElementShortName">fsm_chrg_end</obj_property>
-      <obj_property name="ObjectShortName">fsm_chrg_end</obj_property>
-   </wvobject>
-   <wvobject type="array" fp_name="/EDA2_TOP_tb/my_core_tb/coins_inserting">
-      <obj_property name="ElementShortName">coins_inserting[1:0]</obj_property>
-      <obj_property name="ObjectShortName">coins_inserting[1:0]</obj_property>
-   </wvobject>
-   <wvobject type="array" fp_name="/EDA2_TOP_tb/my_core_tb/countdown_time">
-      <obj_property name="ElementShortName">countdown_time[5:0]</obj_property>
-      <obj_property name="ObjectShortName">countdown_time[5:0]</obj_property>
-   </wvobject>
-   <wvobject type="array" fp_name="/EDA2_TOP_tb/my_core_tb/timer_current_time">
-      <obj_property name="ElementShortName">timer_current_time[5:0]</obj_property>
-      <obj_property name="ObjectShortName">timer_current_time[5:0]</obj_property>
-   </wvobject>
-   <wvobject type="logic" fp_name="/EDA2_TOP_tb/my_core_tb/timer_ctrl">
-      <obj_property name="ElementShortName">timer_ctrl</obj_property>
-      <obj_property name="ObjectShortName">timer_ctrl</obj_property>
-   </wvobject>
-   <wvobject type="logic" fp_name="/EDA2_TOP_tb/my_core_tb/timer_reset">
-      <obj_property name="ElementShortName">timer_reset</obj_property>
-      <obj_property name="ObjectShortName">timer_reset</obj_property>
-   </wvobject>
-   <wvobject type="logic" fp_name="/EDA2_TOP_tb/my_core_tb/timer_end">
-      <obj_property name="ElementShortName">timer_end</obj_property>
-      <obj_property name="ObjectShortName">timer_end</obj_property>
-   </wvobject>
-   <wvobject type="array" fp_name="/EDA2_TOP_tb/my_core_tb/flag">
-      <obj_property name="ElementShortName">flag[2:0]</obj_property>
-      <obj_property name="ObjectShortName">flag[2:0]</obj_property>
-   </wvobject>
-   <wvobject type="array" fp_name="/EDA2_TOP_tb/my_core_tb/UNIT">
-      <obj_property name="ElementShortName">UNIT[31:0]</obj_property>
-      <obj_property name="ObjectShortName">UNIT[31:0]</obj_property>
-   </wvobject>
-   <wvobject type="array" fp_name="/EDA2_TOP_tb/my_core_tb/LOW_FREQ">
-      <obj_property name="ElementShortName">LOW_FREQ[31:0]</obj_property>
-      <obj_property name="ObjectShortName">LOW_FREQ[31:0]</obj_property>
+   <wvobject type="array" fp_name="/CYX_ALU_Core_tb/B_tb">
+      <obj_property name="ElementShortName">B_tb[31:0]</obj_property>
+      <obj_property name="ObjectShortName">B_tb[31:0]</obj_property>
    </wvobject>
 </wave_config>
