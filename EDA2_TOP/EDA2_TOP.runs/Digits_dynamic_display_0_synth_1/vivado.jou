@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Tue Dec  3 22:57:57 2019
+# Process ID: 3339
+# Current directory: /home/cyx/Desktop/EDA2/EDA2_TOP/EDA2_TOP.runs/Digits_dynamic_display_0_synth_1
+# Command line: vivado -log Digits_dynamic_display_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Digits_dynamic_display_0.tcl
+# Log file: /home/cyx/Desktop/EDA2/EDA2_TOP/EDA2_TOP.runs/Digits_dynamic_display_0_synth_1/Digits_dynamic_display_0.vds
+# Journal file: /home/cyx/Desktop/EDA2/EDA2_TOP/EDA2_TOP.runs/Digits_dynamic_display_0_synth_1/vivado.jou
+#-----------------------------------------------------------
+source Digits_dynamic_display_0.tcl -notrace

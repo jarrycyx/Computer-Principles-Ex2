@@ -1,0 +1,148 @@
+Flow report for keyboard
+Tue Feb 18 23:06:17 2020
+Quartus II 64-Bit Version 13.0.0 Build 156 04/24/2013 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+  8. Flow Messages
+  9. Flow Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++----------------------------------------------------------------------------------+
+; Flow Summary                                                                     ;
++------------------------------------+---------------------------------------------+
+; Flow Status                        ; Successful - Tue Feb 18 23:06:17 2020       ;
+; Quartus II 64-Bit Version          ; 13.0.0 Build 156 04/24/2013 SJ Full Version ;
+; Revision Name                      ; keyboard                                    ;
+; Top-level Entity Name              ; keyboard_top                                ;
+; Family                             ; Cyclone II                                  ;
+; Device                             ; EP2C5Q208C8                                 ;
+; Timing Models                      ; Final                                       ;
+; Total logic elements               ; 41 / 4,608 ( < 1 % )                        ;
+;     Total combinational functions  ; 36 / 4,608 ( < 1 % )                        ;
+;     Dedicated logic registers      ; 30 / 4,608 ( < 1 % )                        ;
+; Total registers                    ; 30                                          ;
+; Total pins                         ; 14 / 142 ( 10 % )                           ;
+; Total virtual pins                 ; 0                                           ;
+; Total memory bits                  ; 0 / 119,808 ( 0 % )                         ;
+; Embedded Multiplier 9-bit elements ; 0 / 26 ( 0 % )                              ;
+; Total PLLs                         ; 1 / 2 ( 50 % )                              ;
++------------------------------------+---------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 02/18/2020 22:28:31 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; keyboard            ;
++-------------------+---------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                    ;
++--------------------------------------+------------------------------+---------------+--------------+----------------+
+; Assignment Name                      ; Value                        ; Default Value ; Entity Name  ; Section Id     ;
++--------------------------------------+------------------------------+---------------+--------------+----------------+
+; COMPILER_SIGNATURE_ID                ; 345052807169.158203611038440 ; --            ; --           ; --             ;
+; EDA_DESIGN_INSTANCE_NAME             ; uut                          ; --            ; --           ; keyboard_tb    ;
+; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; keyboard_tb                  ; --            ; --           ; eda_simulation ;
+; EDA_OUTPUT_DATA_FORMAT               ; Vhdl                         ; --            ; --           ; eda_simulation ;
+; EDA_RUN_TOOL_AUTOMATICALLY           ; On                           ; --            ; --           ; eda_simulation ;
+; EDA_SIMULATION_TOOL                  ; ModelSim-Altera (VHDL)       ; <None>        ; --           ; --             ;
+; EDA_TEST_BENCH_ENABLE_STATUS         ; TEST_BENCH_MODE              ; --            ; --           ; eda_simulation ;
+; EDA_TEST_BENCH_FILE                  ; keyboard_tb.vhd              ; --            ; --           ; keyboard_tb    ;
+; EDA_TEST_BENCH_MODULE_NAME           ; keyboard_tb                  ; --            ; --           ; keyboard_tb    ;
+; EDA_TEST_BENCH_NAME                  ; keyboard_tb                  ; --            ; --           ; eda_simulation ;
+; IP_TOOL_NAME                         ; ALTPLL                       ; --            ; --           ; --             ;
+; IP_TOOL_NAME                         ; LPM_COUNTER                  ; --            ; --           ; --             ;
+; IP_TOOL_VERSION                      ; 13.0                         ; --            ; --           ; --             ;
+; IP_TOOL_VERSION                      ; 13.0                         ; --            ; --           ; --             ;
+; MAX_CORE_JUNCTION_TEMP               ; 85                           ; --            ; --           ; --             ;
+; MIN_CORE_JUNCTION_TEMP               ; 0                            ; --            ; --           ; --             ;
+; MISC_FILE                            ; F50M_10M.bsf                 ; --            ; --           ; --             ;
+; MISC_FILE                            ; F50M_10M.cmp                 ; --            ; --           ; --             ;
+; MISC_FILE                            ; F50M_10M.ppf                 ; --            ; --           ; --             ;
+; MISC_FILE                            ; F1M_500Hz.bsf                ; --            ; --           ; --             ;
+; MISC_FILE                            ; F1M_500Hz.cmp                ; --            ; --           ; --             ;
+; PARTITION_COLOR                      ; 16764057                     ; --            ; keyboard_top ; Top            ;
+; PARTITION_FITTER_PRESERVATION_LEVEL  ; PLACEMENT_AND_ROUTING        ; --            ; keyboard_top ; Top            ;
+; PARTITION_NETLIST_TYPE               ; SOURCE                       ; --            ; keyboard_top ; Top            ;
+; PROJECT_OUTPUT_DIRECTORY             ; output_files                 ; --            ; --           ; --             ;
+; SEARCH_PATH                          ; output_files/                ; --            ; --           ; --             ;
+; TOP_LEVEL_ENTITY                     ; keyboard_top                 ; keyboard      ; --           ; --             ;
++--------------------------------------+------------------------------+---------------+--------------+----------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                             ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis      ; 00:00:07     ; 1.0                     ; 4669 MB             ; 00:00:06                           ;
+; Fitter                    ; 00:00:08     ; 1.2                     ; 5041 MB             ; 00:00:08                           ;
+; Assembler                 ; 00:00:03     ; 1.0                     ; 4583 MB             ; 00:00:03                           ;
+; TimeQuest Timing Analyzer ; 00:00:06     ; 1.0                     ; 4584 MB             ; 00:00:04                           ;
+; EDA Netlist Writer        ; 00:00:02     ; 1.0                     ; 4543 MB             ; 00:00:02                           ;
+; EDA Netlist Writer        ; 00:00:02     ; 1.0                     ; 4554 MB             ; 00:00:02                           ;
+; Total                     ; 00:00:28     ; --                      ; --                  ; 00:00:25                           ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++----------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                        ;
++---------------------------+------------------+-----------+------------+----------------+
+; Module Name               ; Machine Hostname ; OS Name   ; OS Version ; Processor type ;
++---------------------------+------------------+-----------+------------+----------------+
+; Analysis & Synthesis      ; cadserverb       ; Windows 7 ; 6.2        ; x86_64         ;
+; Fitter                    ; cadserverb       ; Windows 7 ; 6.2        ; x86_64         ;
+; Assembler                 ; cadserverb       ; Windows 7 ; 6.2        ; x86_64         ;
+; TimeQuest Timing Analyzer ; cadserverb       ; Windows 7 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer        ; cadserverb       ; Windows 7 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer        ; cadserverb       ; Windows 7 ; 6.2        ; x86_64         ;
++---------------------------+------------------+-----------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off keyboard -c keyboard
+quartus_fit --read_settings_files=off --write_settings_files=off keyboard -c keyboard
+quartus_asm --read_settings_files=off --write_settings_files=off keyboard -c keyboard
+quartus_sta keyboard -c keyboard
+quartus_eda --read_settings_files=off --write_settings_files=off keyboard -c keyboard
+quartus_eda --read_settings_files=on --write_settings_files=off keyboard -c keyboard
+
+
+

@@ -1,0 +1,193 @@
+# Reading C:/altera/13.0/modelsim_ase/tcl/vsim/pref.tcl 
+# do keyboard_run_msim_gate_vhdl.do 
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Copying C:\altera\13.0\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {keyboard.vho}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package cycloneii_atom_pack
+# -- Loading package cycloneii_components
+# -- Compiling entity keyboard_top
+# -- Compiling architecture structure of keyboard_top
+# 
+# vcom -93 -work work {C:/Users/super_eda/Desktop/keyboard_LPM/keyboard_tb.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity keyboard_tb
+# -- Compiling architecture behav of keyboard_tb
+# ** Warning: [4] C:/Users/super_eda/Desktop/keyboard_LPM/keyboard_tb.vhd(53): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/super_eda/Desktop/keyboard_LPM/keyboard_tb.vhd(85): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# 
+# vsim -t 1ps +transport_int_delays +transport_path_delays -sdftyp /uut=keyboard_vhd.sdo -L cycloneii -L gate_work -L work -voptargs="+acc"  keyboard_tb
+# vsim +transport_int_delays +transport_path_delays -L cycloneii -L gate_work -L work -voptargs=\"+acc\" -sdftyp /uut=keyboard_vhd.sdo -t 1ps keyboard_tb 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.keyboard_tb(behav)
+# SDF 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading cycloneii.cycloneii_atom_pack(body)
+# Loading cycloneii.cycloneii_components
+# Loading work.keyboard_top(structure)
+# Loading cycloneii.cycloneii_lcell_ff(vital_lcell_ff)
+# Loading cycloneii.cycloneii_and1(altvital)
+# Loading cycloneii.cycloneii_lcell_comb(vital_lcell_comb)
+# Loading cycloneii.cycloneii_pllpack(body)
+# Loading cycloneii.cycloneii_pll(vital_pll)
+# Loading cycloneii.cycloneii_m_cntr(behave)
+# Loading cycloneii.cycloneii_n_cntr(behave)
+# Loading cycloneii.cycloneii_scale_cntr(behave)
+# Loading cycloneii.cycloneii_io(structure)
+# Loading cycloneii.cycloneii_mux21(altvital)
+# Loading cycloneii.cycloneii_dffe(behave)
+# Loading cycloneii.cycloneii_asynch_io(behave)
+# Loading cycloneii.cycloneii_clkctrl(vital_clkctrl)
+# Loading cycloneii.cycloneii_ena_reg(behave)
+# Loading instances from keyboard_vhd.sdo
+# Loading timing data from keyboard_vhd.sdo
+# ** Warning: Design size of 4 instances exceeds ModelSim ALTERA recommended capacity.
+# This may because you are loading cell libraries which are not recommended with
+# the ModelSim Altera version. Expect performance to be adversely affected.
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /keyboard_tb File: C:/Users/super_eda/Desktop/keyboard_LPM/keyboard_tb.vhd
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /keyboard_tb
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /keyboard_tb
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /keyboard_tb
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /keyboard_tb
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /keyboard_tb
+# ** Note: CycloneII PLL is enabled
+#    Time: 0 ps  Iteration: 1  Instance: /keyboard_tb/uut/\b2v_inst|altpll_component|pll\
+# ** Note: CycloneII PLL locked to incoming clock
+#    Time: 113830 ps  Iteration: 0  Instance: /keyboard_tb/uut/\b2v_inst|altpll_component|pll\
+# ** Error: Assertion violation.
+#    Time: 5005 ns  Iteration: 0  Instance: /keyboard_tb
+# ** Note: key_out is 0. Expected g
+#    Time: 5005 ns  Iteration: 0  Instance: /keyboard_tb
+# ** Note: key_out is == 0
+#    Time: 5005 ns  Iteration: 0  Instance: /keyboard_tb
+# ** Note: key_out is == 0
+#    Time: 10010 ns  Iteration: 0  Instance: /keyboard_tb
+# ** Error: Assertion violation.
+#    Time: 15015 ns  Iteration: 0  Instance: /keyboard_tb
+# ** Note: key_out is 0. Expected 1
+#    Time: 15015 ns  Iteration: 0  Instance: /keyboard_tb
+# ** Note: key_out is == 0
+#    Time: 15015 ns  Iteration: 0  Instance: /keyboard_tb
+# ** Error: Assertion violation.
+#    Time: 20020 ns  Iteration: 0  Instance: /keyboard_tb
+# ** Note: key_out is 0. Expected 2
+#    Time: 20020 ns  Iteration: 0  Instance: /keyboard_tb
+# ** Note: key_out is == 0
+#    Time: 20020 ns  Iteration: 0  Instance: /keyboard_tb
+# ** Error: Assertion violation.
+#    Time: 25025 ns  Iteration: 0  Instance: /keyboard_tb
+# ** Note: key_out is 0. Expected 3
+#    Time: 25025 ns  Iteration: 0  Instance: /keyboard_tb
+# ** Note: key_out is == 0
+#    Time: 25025 ns  Iteration: 0  Instance: /keyboard_tb
+# ** Error: Assertion violation.
+#    Time: 30030 ns  Iteration: 0  Instance: /keyboard_tb
+# ** Note: key_out is 0. Expected 4
+#    Time: 30030 ns  Iteration: 0  Instance: /keyboard_tb
+# ** Note: key_out is == 0
+#    Time: 30030 ns  Iteration: 0  Instance: /keyboard_tb
+# ** Error: Assertion violation.
+#    Time: 35035 ns  Iteration: 0  Instance: /keyboard_tb
+# ** Note: key_out is 0. Expected 5
+#    Time: 35035 ns  Iteration: 0  Instance: /keyboard_tb
+# ** Note: key_out is == 0
+#    Time: 35035 ns  Iteration: 0  Instance: /keyboard_tb
+# ** Error: Assertion violation.
+#    Time: 40040 ns  Iteration: 0  Instance: /keyboard_tb
+# ** Note: key_out is 0. Expected 6
+#    Time: 40040 ns  Iteration: 0  Instance: /keyboard_tb
+# ** Note: key_out is == 0
+#    Time: 40040 ns  Iteration: 0  Instance: /keyboard_tb
+# ** Error: Assertion violation.
+#    Time: 45045 ns  Iteration: 0  Instance: /keyboard_tb
+# ** Note: key_out is 0. Expected 7
+#    Time: 45045 ns  Iteration: 0  Instance: /keyboard_tb
+# ** Note: key_out is == 0
+#    Time: 45045 ns  Iteration: 0  Instance: /keyboard_tb
+# ** Error: Assertion violation.
+#    Time: 50050 ns  Iteration: 0  Instance: /keyboard_tb
+# ** Note: key_out is 0. Expected 8
+#    Time: 50050 ns  Iteration: 0  Instance: /keyboard_tb
+# ** Note: key_out is == 0
+#    Time: 50050 ns  Iteration: 0  Instance: /keyboard_tb
+# ** Error: Assertion violation.
+#    Time: 55055 ns  Iteration: 0  Instance: /keyboard_tb
+# ** Note: key_out is 0. Expected 9
+#    Time: 55055 ns  Iteration: 0  Instance: /keyboard_tb
+# ** Note: key_out is == 0
+#    Time: 55055 ns  Iteration: 0  Instance: /keyboard_tb
+# ** Error: Assertion violation.
+#    Time: 60060 ns  Iteration: 0  Instance: /keyboard_tb
+# ** Note: key_out is 0. Expected a
+#    Time: 60060 ns  Iteration: 0  Instance: /keyboard_tb
+# ** Note: key_out is == 0
+#    Time: 60060 ns  Iteration: 0  Instance: /keyboard_tb
+# ** Error: Assertion violation.
+#    Time: 65065 ns  Iteration: 0  Instance: /keyboard_tb
+# ** Note: key_out is 0. Expected b
+#    Time: 65065 ns  Iteration: 0  Instance: /keyboard_tb
+# ** Note: key_out is == 0
+#    Time: 65065 ns  Iteration: 0  Instance: /keyboard_tb
+# ** Error: Assertion violation.
+#    Time: 70070 ns  Iteration: 0  Instance: /keyboard_tb
+# ** Note: key_out is 0. Expected c
+#    Time: 70070 ns  Iteration: 0  Instance: /keyboard_tb
+# ** Note: key_out is == 0
+#    Time: 70070 ns  Iteration: 0  Instance: /keyboard_tb
+# ** Error: Assertion violation.
+#    Time: 75075 ns  Iteration: 0  Instance: /keyboard_tb
+# ** Note: key_out is 0. Expected d
+#    Time: 75075 ns  Iteration: 0  Instance: /keyboard_tb
+# ** Note: key_out is == 0
+#    Time: 75075 ns  Iteration: 0  Instance: /keyboard_tb
+# ** Error: Assertion violation.
+#    Time: 80080 ns  Iteration: 0  Instance: /keyboard_tb
+# ** Note: key_out is 0. Expected e
+#    Time: 80080 ns  Iteration: 0  Instance: /keyboard_tb
+# ** Note: key_out is == 0
+#    Time: 80080 ns  Iteration: 0  Instance: /keyboard_tb
+# ** Error: Assertion violation.
+#    Time: 85085 ns  Iteration: 0  Instance: /keyboard_tb
+# ** Note: key_out is 0. Expected f
+#    Time: 85085 ns  Iteration: 0  Instance: /keyboard_tb
+# ** Note: key_out is == 0
+#    Time: 85085 ns  Iteration: 0  Instance: /keyboard_tb
+# Break key hit 
+# Break in ForLoop loop at C:/altera/13.0/modelsim_ase/win32aloem/../altera/vhdl/src/cycloneii/cycloneii_atoms.vhd line 5066

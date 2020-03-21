@@ -1,0 +1,136 @@
+/*
+
+Xilinx Vivado v2019.1 (64-bit) [Major: 2019, Minor: 1]
+SW Build: 2552052 on Fri May 24 14:47:09 MDT 2019
+IP Build: 2548770 on Fri May 24 18:01:18 MDT 2019
+
+Process ID (PID): 39318
+License: Customer
+
+Current time: 	Sat Mar 21 18:35:36 CST 2020
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Ubuntu
+OS Version: 5.0.0-37-generic
+OS Architecture: amd64
+Available processors (cores): 2
+
+Display: :0
+Screen size: 1600x900
+Screen resolution (DPI): 109
+Available screens: 1
+Available disk space: 11 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=15
+
+Java version: 	9.0.4 64-bit
+Java home: 	/tools/Xilinx/Vivado/2019.1/tps/lnx64/jre9.0.4
+Java executable location: 	/tools/Xilinx/Vivado/2019.1/tps/lnx64/jre9.0.4/bin/java
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	cyx
+User home directory: /home/cyx
+User working directory: /home/cyx/Desktop/Ex2-Computer-Principles
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /tools/Xilinx/Vivado
+HDI_APPROOT: /tools/Xilinx/Vivado/2019.1
+RDI_DATADIR: /tools/Xilinx/Vivado/2019.1/data
+RDI_BINDIR: /tools/Xilinx/Vivado/2019.1/bin
+
+Vivado preferences file location: /home/cyx/.Xilinx/Vivado/2019.1/vivado.xml
+Vivado preferences directory: /home/cyx/.Xilinx/Vivado/2019.1/
+Vivado layouts directory: /home/cyx/.Xilinx/Vivado/2019.1/layouts
+PlanAhead jar file location: 	/tools/Xilinx/Vivado/2019.1/lib/classes/planAhead.jar
+Vivado log file location: 	/home/cyx/Desktop/Ex2-Computer-Principles/vivado.log
+Vivado journal file location: 	/home/cyx/Desktop/Ex2-Computer-Principles/vivado.jou
+Engine tmp dir: 	./.Xil/Vivado-39318-ubuntu
+
+Xilinx Environment Variables
+----------------------------
+XILINX: /tools/Xilinx/Vivado/2019.1/ids_lite/ISE
+XILINX_DSP: /tools/Xilinx/Vivado/2019.1/ids_lite/ISE
+XILINX_PLANAHEAD: /tools/Xilinx/Vivado/2019.1
+XILINX_SDK: /tools/Xilinx/SDK/2019.1
+XILINX_VIVADO: /tools/Xilinx/Vivado/2019.1
+XILINX_VIVADO_HLS: /tools/Xilinx/Vivado/2019.1
+
+
+GUI allocated memory:	154 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 760 MB
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// WARNING: HEventQueue.dispatchEvent() is taking  1617 ms.
+// WARNING: HTimer (HMemoryUtils Timer) is taking 1921ms to process. Increasing delay to 6000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1928 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 761 MB. GUI used memory: 46 MB. Current time: 3/21/20, 6:35:40 PM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  1002 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1002 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+selectButton(PAResourceEtoH.GettingStartedView_OPEN_PROJECT, "Open Project"); // x (w, cl)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_PROJECT
+// HMemoryUtils.trashcanNow. Engine heap size: 786 MB. GUI used memory: 50 MB. Current time: 3/21/20, 6:36:07 PM CST
+setFileChooser("/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.xpr");
+// by (cl):  Open Project : addNotify
+// Opening Vivado Project: /home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.xpr. Version: Vivado v2019.1 
+// WARNING: HEventQueue.dispatchEvent() is taking  1313 ms.
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project /home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 84 MB (+85609kb) [00:01:05]
+// [Engine Memory]: 849 MB (+738830kb) [00:01:05]
+// WARNING: HEventQueue.dispatchEvent() is taking  12096 ms.
+// [Engine Memory]: 898 MB (+7076kb) [00:01:14]
+// Tcl Message: open_project /home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from '/home/cyx/Desktop/EDA2/EDA2_TOP' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/cyx/Desktop/Ex2-Computer-Principles/CYX_IP_CATALOG'. INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2019.1/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 904 MB. GUI used memory: 53 MB. Current time: 3/21/20, 6:36:32 PM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  1818 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  2393 ms.
+// Tcl Message: open_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 6421.387 ; gain = 100.801 ; free physical = 89 ; free virtual = 1097 
+// Project name: EDA2_TOP; location: /home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP; part: xc7a35tcpg236-1
+// 'i' command handler elapsed time: 35 seconds
+// WARNING: HEventQueue.dispatchEvent() is taking  1164 ms.
+// [GUI Memory]: 108 MB (+20725kb) [00:01:24]
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking 501ms to process. Increasing delay to 3000 ms.
+// Elapsed time: 30 seconds
+dismissDialog("Open Project"); // by (cl)
+// [Engine Memory]: 1,259 MB (+330721kb) [00:01:25]
+// HMemoryUtils.trashcanNow. Engine heap size: 941 MB. GUI used memory: 52 MB. Current time: 3/21/20, 6:36:46 PM CST
+// Tcl Message: update_compile_order -fileset sources_1 

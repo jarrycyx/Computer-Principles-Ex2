@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sat Mar 21 18:34:54 2020
+# Process ID: 39318
+# Current directory: /home/cyx/Desktop/Ex2-Computer-Principles
+# Command line: vivado
+# Log file: /home/cyx/Desktop/Ex2-Computer-Principles/vivado.log
+# Journal file: /home/cyx/Desktop/Ex2-Computer-Principles/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.xpr
+INFO: [Project 1-313] Project file moved from '/home/cyx/Desktop/EDA2/EDA2_TOP' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/cyx/Desktop/Ex2-Computer-Principles/CYX_IP_CATALOG'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2019.1/data/ip'.
+open_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 6421.387 ; gain = 100.801 ; free physical = 89 ; free virtual = 1097
+update_compile_order -fileset sources_1

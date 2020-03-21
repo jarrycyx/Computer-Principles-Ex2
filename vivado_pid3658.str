@@ -1,0 +1,291 @@
+/*
+
+Xilinx Vivado v2019.1 (64-bit) [Major: 2019, Minor: 1]
+SW Build: 2552052 on Fri May 24 14:47:09 MDT 2019
+IP Build: 2548770 on Fri May 24 18:01:18 MDT 2019
+
+Process ID (PID): 3658
+License: Customer
+
+Current time: 	Sat Mar 21 17:19:45 CST 2020
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Ubuntu
+OS Version: 5.0.0-37-generic
+OS Architecture: amd64
+Available processors (cores): 2
+
+Display: :0
+Screen size: 1600x900
+Screen resolution (DPI): 109
+Available screens: 1
+Available disk space: 11 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=15
+
+Java version: 	9.0.4 64-bit
+Java home: 	/tools/Xilinx/Vivado/2019.1/tps/lnx64/jre9.0.4
+Java executable location: 	/tools/Xilinx/Vivado/2019.1/tps/lnx64/jre9.0.4/bin/java
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	cyx
+User home directory: /home/cyx
+User working directory: /home/cyx/Desktop/Ex2-Computer-Principles
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /tools/Xilinx/Vivado
+HDI_APPROOT: /tools/Xilinx/Vivado/2019.1
+RDI_DATADIR: /tools/Xilinx/Vivado/2019.1/data
+RDI_BINDIR: /tools/Xilinx/Vivado/2019.1/bin
+
+Vivado preferences file location: /home/cyx/.Xilinx/Vivado/2019.1/vivado.xml
+Vivado preferences directory: /home/cyx/.Xilinx/Vivado/2019.1/
+Vivado layouts directory: /home/cyx/.Xilinx/Vivado/2019.1/layouts
+PlanAhead jar file location: 	/tools/Xilinx/Vivado/2019.1/lib/classes/planAhead.jar
+Vivado log file location: 	/home/cyx/Desktop/Ex2-Computer-Principles/vivado.log
+Vivado journal file location: 	/home/cyx/Desktop/Ex2-Computer-Principles/vivado.jou
+Engine tmp dir: 	./.Xil/Vivado-3658-ubuntu
+
+Xilinx Environment Variables
+----------------------------
+XILINX: /tools/Xilinx/Vivado/2019.1/ids_lite/ISE
+XILINX_DSP: /tools/Xilinx/Vivado/2019.1/ids_lite/ISE
+XILINX_PLANAHEAD: /tools/Xilinx/Vivado/2019.1
+XILINX_SDK: /tools/Xilinx/SDK/2019.1
+XILINX_VIVADO: /tools/Xilinx/Vivado/2019.1
+XILINX_VIVADO_HLS: /tools/Xilinx/Vivado/2019.1
+
+
+GUI allocated memory:	154 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 751 MB
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// WARNING: HEventQueue.dispatchEvent() is taking  2286 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 757 MB. GUI used memory: 46 MB. Current time: 3/21/20, 5:19:46 PM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1002 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1002 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1004 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1003 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1234 ms.
+selectButton(PAResourceEtoH.GettingStartedView_OPEN_PROJECT, "Open Project"); // x (w, cl)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_PROJECT
+// HMemoryUtils.trashcanNow. Engine heap size: 786 MB. GUI used memory: 50 MB. Current time: 3/21/20, 5:20:11 PM CST
+// Elapsed time: 96 seconds
+setFileChooser("/home/cyx/Desktop/Ex2-Computer-Principles/Module_1/M1.xpr");
+// by (cl):  Open Project : addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  1057 ms.
+// Opening Vivado Project: /home/cyx/Desktop/Ex2-Computer-Principles/Module_1/M1.xpr. Version: Vivado v2019.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project /home/cyx/Desktop/Ex2-Computer-Principles/Module_1/M1.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 100 MB (+102780kb) [00:02:36]
+// [Engine Memory]: 858 MB (+748136kb) [00:02:36]
+// WARNING: HEventQueue.dispatchEvent() is taking  9179 ms.
+// Tcl Message: open_project /home/cyx/Desktop/Ex2-Computer-Principles/Module_1/M1.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from '/home/cyx/Desktop/WEEK12-EDA-Laboratory-of-Electronic-Circuits/Module_1' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/cyx/Desktop/EDA1/CYX_IP_CATALOG'. 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/cyx/Desktop/EDA1/vivado-IP-Cores-74LSxx-XUP'. INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2019.1/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 921 MB. GUI used memory: 53 MB. Current time: 3/21/20, 5:22:05 PM CST
+// [Engine Memory]: 921 MB (+21430kb) [00:02:43]
+// WARNING: HEventQueue.dispatchEvent() is taking  1807 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1955 ms.
+// Tcl Message: open_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 6441.281 ; gain = 116.480 ; free physical = 68 ; free virtual = 1257 
+// Project name: M1; location: /home/cyx/Desktop/Ex2-Computer-Principles/Module_1; part: xc7a35tcpg236-1
+// 'i' command handler elapsed time: 119 seconds
+// Elapsed time: 23 seconds
+dismissDialog("Open Project"); // by (cl)
+// [GUI Memory]: 112 MB (+6880kb) [00:02:53]
+// PAPropertyPanels.initPanels (clock_cyx.v) elapsed time: 0.5s
+// Elapsed time: 46 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, clock_cyx (clock_cyx.v)]", 1, true); // B (F, cl) - Node
+// WARNING: HEventQueue.dispatchEvent() is taking  1141 ms.
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, clock_cyx (clock_cyx.v), my_stab : button_stablizer (button_stablizer.v)]", 2, false, false, false, false, false, true); // B (F, cl) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, clock_cyx (clock_cyx.v), my_stab : button_stablizer (button_stablizer.v)]", 2, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, clock_cyx (clock_cyx.v), my_stab : button_stablizer (button_stablizer.v)]", 2, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, clock_cyx (clock_cyx.v), my_stab : button_stablizer (button_stablizer.v)]", 2, false, false, false, false, false, true); // B (F, cl) - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1390 ms.
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, clock_cyx (clock_cyx.v)]", 1, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, clock_cyx (clock_cyx.v)]", 1, true); // B (F, cl) - Node
+// HMemoryUtils.trashcanNow. Engine heap size: 969 MB. GUI used memory: 55 MB. Current time: 3/21/20, 5:23:01 PM CST
+// [Engine Memory]: 969 MB (+1486kb) [00:03:39]
+selectCodeEditor("button_stablizer.v", 165, 147); // cl (w, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, clock_cyx (clock_cyx.v)]", 1, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, clock_cyx (clock_cyx.v)]", 1, true, false, false, false, false, true); // B (F, cl) - Double Click - Node
+// WARNING: HEventQueue.dispatchEvent() is taking  1647 ms.
+selectCodeEditor("clock_cyx.v", 205, 132); // cl (w, cl)
+// Elapsed time: 10 seconds
+selectCodeEditor("clock_cyx.v", 169, 171); // cl (w, cl)
+selectCodeEditor("clock_cyx.v", 132, 134); // cl (w, cl)
+// Elapsed time: 10 seconds
+selectCodeEditor("clock_cyx.v", 128, 203); // cl (w, cl)
+selectCodeEditor("clock_cyx.v", 120, 208); // cl (w, cl)
+selectCodeEditor("clock_cyx.v", 120, 208, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("clock_cyx.v", 115, 219); // cl (w, cl)
+// WARNING: HEventQueue.dispatchEvent() is taking  1095 ms.
+selectCodeEditor("clock_cyx.v", 152, 186); // cl (w, cl)
+selectCodeEditor("clock_cyx.v", 335, 141); // cl (w, cl)
+selectCodeEditor("clock_cyx.v", 332, 118); // cl (w, cl)
+selectCodeEditor("clock_cyx.v", 324, 119); // cl (w, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, counter_60_24 (counter_60.v)]", 2, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, clock_cyx (clock_cyx.v)]", 1, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, counter_60_24 (counter_60.v)]", 2, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, counter_60_24 (counter_60.v)]", 2, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, clock_cyx (clock_cyx.v)]", 1, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, counter_60_24 (counter_60.v)]", 2, false); // B (F, cl)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, IP Catalog]", 4, false); // u (O, cl)
+// Run Command: PAResourceCommand.PACommandNames_CORE_GEN
+// WARNING: HEventQueue.dispatchEvent() is taking  1975 ms.
+// by (SwingUtilities.SharedOwnerFrame):  Open IP Catalog : addNotify
+dismissDialog("Open IP Catalog"); // by (SwingUtilities.SharedOwnerFrame)
+// Elapsed time: 195 seconds
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "User Repository ;  ;  ;  ; ", 1, "User Repository", 0, false); // L (O, cl)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "User Repository ;  ;  ;  ; ", 1, "User Repository", 0, false); // L (O, cl)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "User Repository ;  ;  ;  ; ", 2, "User Repository", 0, true); // L (O, cl) - Node
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "User Repository ;  ;  ;  ; ", 1, "User Repository", 0, false); // L (O, cl)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "User Repository ;  ;  ;  ; ", 0, "User Repository", 0, true); // L (O, cl) - Node
+collapseTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "User Repository ;  ;  ;  ; ", 3); // L (O, cl)
+// PAPropertyPanels.initPanels (/tools/Xilinx/Vivado/2019.1/data/) elapsed time: 1.1s
+// WARNING: HEventQueue.dispatchEvent() is taking  1466 ms.
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "User Repository ;  ;  ;  ; ", 3, "User Repository", 0, true, false, false, false, true, false); // L (O, cl) - Popup Trigger - Node
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "User Repository ;  ;  ;  ; ", 3, "User Repository", 0, true, false, false, false, true, false); // L (O, cl) - Popup Trigger - Node
+selectMenuItem(PAResourceAtoD.CoreAndInterfacesBaseTreeTablePanel_ADD_REPOSITORY, "Add Repository..."); // ah (an, cl)
+// WARNING: HEventQueue.dispatchEvent() is taking  2218 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 984 MB. GUI used memory: 61 MB. Current time: 3/21/20, 5:27:41 PM CST
+// Elapsed time: 21 seconds
+setFolderChooser("/home/cyx/Desktop/Ex2-Computer-Principles/CYX_IP_CATALOG");
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// WARNING: HEventQueue.dispatchEvent() is taking  2996 ms.
+// [GUI Memory]: 133 MB (+15951kb) [00:08:40]
+// Tcl Message: set_property  ip_repo_paths  {/home/cyx/Desktop/EDA1/CYX_IP_CATALOG {/home/cyx/Desktop/vivado - IP核 - 74LSxx - XUP} /home/cyx/Desktop/EDA1/vivado-IP-Cores-74LSxx-XUP /home/cyx/Desktop/Ex2-Computer-Principles/CYX_IP_CATALOG} [current_project] 
+// TclEventType: CREATE_IP_CATALOG
+// Tcl Message: update_ip_catalog 
+// by (cl):  Refresh All IP Repositories : addNotify
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/cyx/Desktop/EDA1/CYX_IP_CATALOG'. 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/cyx/Desktop/EDA1/vivado-IP-Cores-74LSxx-XUP'. 
+// TclEventType: CREATE_IP_CATALOG
+// WARNING: HEventQueue.dispatchEvent() is taking  1765 ms.
+// TclEventType: CREATE_IP_CATALOG
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/cyx/Desktop/Ex2-Computer-Principles/CYX_IP_CATALOG'. 
+// WARNING: HEventQueue.dispatchEvent() is taking  1291 ms.
+// c (cl): Add Repository: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 1,004 MB. GUI used memory: 60 MB. Current time: 3/21/20, 5:28:28 PM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  1362 ms.
+// Elapsed time: 42 seconds
+selectButton(RDIResource.AddRepositoryInfoDialog_OK, "OK"); // a (c)
+dismissDialog("Add Repository"); // c (cl)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,034 MB. GUI used memory: 58 MB. Current time: 3/21/20, 5:29:07 PM CST
+// [Engine Memory]: 1,034 MB (+17452kb) [00:09:47]
+// Elapsed time: 27 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, true); // B (F, cl) - Node
+// WARNING: HEventQueue.dispatchEvent() is taking  2266 ms.
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, true); // B (F, cl) - Node
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 1751 ms. Increasing delay to 5253 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 1997 ms. Increasing delay to 3000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1650 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  2221 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking 1347 ms to process. Increasing delay to 2000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1580 ms.
+// Elapsed time: 458 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // Z (q, cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // Z (q, cl)
+// WARNING: HEventQueue.dispatchEvent() is taking  1292 ms.
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // Z (q, cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // Z (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // Z (q, cl)
+// Elapsed time: 12 seconds
+selectMenu(RDIResourceCommand.RDICommands_CUSTOM_COMMANDS, "Custom Commands"); // ae (cl)
+// Elapsed time: 86 seconds
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // Z (q, cl)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "User Repository ;  ;  ;  ; ", 1, "User Repository", 0, false); // L (O, cl)
+selectTreeTableHeader(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Name", 0); // L (O, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, clock_cyx (clock_cyx.v)]", 1, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, clock_cyx (clock_cyx.v)]", 1, true, false, false, false, false, true); // B (F, cl) - Double Click - Node
+// WARNING: HEventQueue.dispatchEvent() is taking  1061 ms.
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, clock_cyx (clock_cyx.v)]", 1, true); // B (F, cl) - Node
+// WARNING: updateGUI() is taking  2672 ms.
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, counter_60_24 (counter_60.v)]", 2, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, clock_cyx (clock_cyx.v)]", 1, true); // B (F, cl) - Node
+// WARNING: HEventQueue.dispatchEvent() is taking  2869 ms.
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, counter_60_24 (counter_60.v)]", 2, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, counter_60_24 (counter_60.v)]", 2, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, counter_60_24 (counter_60.v)]", 2, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, clock_cyx (clock_cyx.v)]", 1, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, counter_60_24 (counter_60.v)]", 2, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, clock_cyx (clock_cyx.v)]", 1, true); // B (F, cl) - Node
+selectCodeEditor("clock_cyx.v", 173, 159); // cl (w, cl)
+// WARNING: HEventQueue.dispatchEvent() is taking  1504 ms.
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 1520ms to process. Increasing delay to 2000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1540 ms.
+// WARNING: HTimer (WrapperUtils Delayed Delete Timer) is taking 566ms to process. Increasing delay to 2000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1257 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  2148 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  2102 ms.
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 1516ms to process. Increasing delay to 3000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1638 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1272 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  14167 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,045 MB. GUI used memory: 59 MB. Current time: 3/21/20, 5:59:21 PM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  2169 ms.
+// WARNING: HTimer (ExpRunMgr Pending Runs Timer) is taking 448ms to process. Increasing delay to 3000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1826 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1286 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  2158 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  2111 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  2070 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  2205 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1011 ms.
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking 1969ms to process. Increasing delay to 3000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  2169 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  4651 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,030 MB. GUI used memory: 54 MB. Current time: 3/21/20, 6:29:16 PM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  1801 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  2771 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1072 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  4651 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  2235 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking 625 ms to process. Increasing delay to 2000 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking 1625 ms to process. Increasing delay to 3000 ms.
+// Elapsed time: 3169 seconds
+selectCodeEditor("clock_cyx.v", 59, 186); // cl (w, cl)
+selectCodeEditor("clock_cyx.v", 159, 103); // cl (w, cl)
+// TclEventType: FILE_SET_CHANGE
+// WARNING: HEventQueue.dispatchEvent() is taking  1280 ms.
+// TclEventType: FILE_SET_CHANGE

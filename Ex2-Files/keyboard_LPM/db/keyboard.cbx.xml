@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="keyboard">
+		<CBX_INST_ENTRY INSTANCE_NAME="|keyboard_top|F1M_500Hz:b2v_inst1|lpm_counter:LPM_COUNTER_component" CBX_FILE_NAME="cntr_5lj.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

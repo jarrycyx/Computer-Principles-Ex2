@@ -1,0 +1,8 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"EDA2_fsm_tb_time_impl.v" \
+"../../../../../EDA2_TOP.srcs/sources_1/new/EDA2_fsm.v" \
+"../../../../../EDA2_TOP.srcs/sim_1/new/EDA2_fsm_tb.v" \
+
+# Do not sort compile order
+nosort

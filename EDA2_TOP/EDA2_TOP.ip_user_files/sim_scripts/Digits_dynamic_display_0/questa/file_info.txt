@@ -1,0 +1,3 @@
+Digits_dynamic_display.v,verilog,xil_defaultlib,../../../../EDA2_TOP.srcs/sources_1/ip/Digits_dynamic_display_0/src/Digits_dynamic_display.v,
+Digits_dynamic_display_0.v,verilog,xil_defaultlib,../../../../EDA2_TOP.srcs/sources_1/ip/Digits_dynamic_display_0/sim/Digits_dynamic_display_0.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

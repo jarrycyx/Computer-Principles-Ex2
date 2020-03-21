@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sat Dec  7 20:25:30 2019
+# Process ID: 23727
+# Current directory: /home/cyx/Desktop/EDA2/EDA2_TOP/EDA2_TOP.runs/synth_1
+# Command line: vivado -log EDA2_TOP.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source EDA2_TOP.tcl
+# Log file: /home/cyx/Desktop/EDA2/EDA2_TOP/EDA2_TOP.runs/synth_1/EDA2_TOP.vds
+# Journal file: /home/cyx/Desktop/EDA2/EDA2_TOP/EDA2_TOP.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source EDA2_TOP.tcl -notrace
