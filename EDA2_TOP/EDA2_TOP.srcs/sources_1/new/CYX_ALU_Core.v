@@ -44,7 +44,7 @@ module CYX_ALU_Core(
     assign AND_RES =  A_For_Calc & B_For_Calc;
     assign OR_RES =  A_For_Calc | B_For_Calc;
     
-    /*** Plus Calc With Overflow Detection ***/
+/*** Plus Calc With Overflow Detection ***/
     wire[30:0] A_31bit, B_31bit;
     assign A_31bit = A_For_Calc[30:0];
     assign B_31bit = B_For_Calc[30:0];
@@ -58,12 +58,13 @@ module CYX_ALU_Core(
     assign PLUS_RES_33bit[32:31] = PLUS_RES_32bit[31] + A_For_Calc[31] + B_For_Calc[31];
     assign PLUS_RES_33bit[30:0] = PLUS_RES_32bit[30:0];
     assign CARRY_TO_32 = PLUS_RES_33bit[32];
-    /*** Plus Calc With Overflow Detection ***/
+/*** Plus Calc With Overflow Detection ***/
     
     always @ *
     begin
         Carry = 0;
         Overflow = 0;
+        CPR_RES = 0;
         case (Operation)
             2'b00: 
                 begin
@@ -82,7 +83,9 @@ module CYX_ALU_Core(
             2'b11: 
                 begin
                     RES = 4'hFFFF;
-                    CPR_RES = (RES < 0);
+                    CPR_RES = PLUS_RES_33bit[31];
+                    Overflow = CARRY_TO_31 ^ CARRY_TO_32;
+                    Carry = CARRY_TO_32;
                 end
             default: RES = PLUS_RES_33bit[31:0];
         endcase

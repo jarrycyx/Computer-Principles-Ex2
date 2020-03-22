@@ -20,7 +20,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='/home/cyx/Desktop/EDA2/EDA2_TOP/EDA2_TOP.runs/impl_1'
+HD_PWD='/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.runs/impl_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log
@@ -38,6 +38,6 @@ EAStep()
 
 # pre-commands:
 /bin/touch .init_design.begin.rst
-EAStep vivado -log EDA2_TOP.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source EDA2_TOP.tcl -notrace
+EAStep vivado -log CYX_ALU_Core.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source CYX_ALU_Core.tcl -notrace
 
 

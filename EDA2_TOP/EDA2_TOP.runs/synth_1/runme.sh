@@ -20,7 +20,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='/home/cyx/Desktop/EDA2/EDA2_TOP/EDA2_TOP.runs/synth_1'
+HD_PWD='/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log
@@ -36,4 +36,4 @@ EAStep()
      fi
 }
 
-EAStep vivado -log EDA2_TOP.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source EDA2_TOP.tcl
+EAStep vivado -log CYX_ALU_Core.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source CYX_ALU_Core.tcl

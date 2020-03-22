@@ -33,11 +33,67 @@ module CYX_ALU_Core_tb(
     
     initial
     begin
+        A_tb = 32'h123F00AB;
+        B_tb = 32'h4C5A6B89;
+        Oper_tb = 2'b10;
+        A_inv_tb = 0;
+        B_inv_tb = 0;
+        
+        #100;
         A_tb = 32'h7FFFFFFF;
         B_tb = 32'h00000001;
         Oper_tb = 2'b10;
         A_inv_tb = 0;
         B_inv_tb = 0;
+        
+        #100;
+        A_tb = 20;
+        B_tb = 25;
+        Oper_tb = 2'b10;
+        A_inv_tb = 0;
+        B_inv_tb = 1;
+        
+        #100;
+        A_tb = 21;
+        B_tb = 20;
+        Oper_tb = 2'b10;
+        A_inv_tb = 0;
+        B_inv_tb = 1;
+        
+        #100;
+        A_tb = 10;
+        B_tb = 11;
+        Oper_tb = 2'b11;
+        A_inv_tb = 0;
+        B_inv_tb = 1;
+        
+        #100;
+        A_tb = 10;
+        B_tb = 9;
+        Oper_tb = 2'b11;
+        A_inv_tb = 0;
+        B_inv_tb = 1;
+        
+        #100;
+        A_tb = 32'hFFFF;
+        B_tb = 32'h0000;
+        Oper_tb = 2'b00;
+        A_inv_tb = 0;
+        B_inv_tb = 0;
+        
+        #100;
+        A_tb = 32'hFFFF;
+        B_tb = 32'h0000;
+        Oper_tb = 2'b01;
+        A_inv_tb = 0;
+        B_inv_tb = 0;
+        
+        #100;
+        A_tb = 32'hFFFF;
+        B_tb = 32'h0000;
+        Oper_tb = 2'b00;
+        A_inv_tb = 1;
+        B_inv_tb = 1;
     end
     
     CYX_ALU_Core my_ALU_Core(

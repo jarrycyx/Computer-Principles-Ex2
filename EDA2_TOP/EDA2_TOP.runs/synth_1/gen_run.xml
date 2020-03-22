@@ -1,13 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1575721526">
-  <File Type="PA-TCL" Name="EDA2_TOP.tcl"/>
-  <File Type="REPORTS-TCL" Name="EDA2_TOP_reports.tcl"/>
-  <File Type="RDS-RDS" Name="EDA2_TOP.vds"/>
-  <File Type="RDS-DCP" Name="EDA2_TOP.dcp"/>
+<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1584848741">
+  <File Type="VDS-TIMINGSUMMARY" Name="CYX_ALU_Core_timing_summary_synth.rpt"/>
+  <File Type="RDS-DCP" Name="CYX_ALU_Core.dcp"/>
+  <File Type="RDS-UTIL-PB" Name="CYX_ALU_Core_utilization_synth.pb"/>
+  <File Type="RDS-UTIL" Name="CYX_ALU_Core_utilization_synth.rpt"/>
+  <File Type="RDS-PROPCONSTRS" Name="CYX_ALU_Core_drc_synth.rpt"/>
+  <File Type="RDS-RDS" Name="CYX_ALU_Core.vds"/>
+  <File Type="REPORTS-TCL" Name="CYX_ALU_Core_reports.tcl"/>
+  <File Type="VDS-TIMING-PB" Name="CYX_ALU_Core_timing_summary_synth.pb"/>
+  <File Type="PA-TCL" Name="CYX_ALU_Core.tcl"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/CYX_ALU_Core.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
     <File Path="$PSRCDIR/sources_1/new/EDA2_fsm.v">
       <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -15,6 +28,7 @@
     </File>
     <File Path="$PSRCDIR/sources_1/new/coins_input.v">
       <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -22,6 +36,7 @@
     </File>
     <File Path="$PSRCDIR/sources_1/new/key_scan_hardware_test.v">
       <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -29,6 +44,7 @@
     </File>
     <File Path="$PSRCDIR/sources_1/new/keys_scan.v">
       <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -36,6 +52,7 @@
     </File>
     <File Path="$PSRCDIR/sources_1/new/timer.v">
       <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -43,6 +60,7 @@
     </File>
     <File Path="$PSRCDIR/sources_1/new/EDA2_TOP.v">
       <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -50,7 +68,7 @@
     </File>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>
-      <Option Name="TopModule" Val="EDA2_TOP"/>
+      <Option Name="TopModule" Val="CYX_ALU_Core"/>
     </Config>
   </FileSet>
   <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
@@ -73,8 +91,9 @@
     </Config>
   </FileSet>
   <Strategy Version="1" Minor="2">
-    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2019"/>
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2019">
+      <Desc>Vivado Synthesis Defaults</Desc>
+    </StratHandle>
     <Step Id="synth_design"/>
   </Strategy>
-  <BlockFileSet Type="BlockSrcs" Name="Digits_dynamic_display_0"/>
 </GenRun>

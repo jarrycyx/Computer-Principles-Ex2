@@ -1,37 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1575721526">
-  <File Type="PA-TCL" Name="EDA2_TOP.tcl"/>
-  <File Type="REPORTS-TCL" Name="EDA2_TOP_reports.tcl"/>
-  <File Type="OPT-DCP" Name="EDA2_TOP_opt.dcp"/>
-  <File Type="OPT-HWDEF" Name="EDA2_TOP.hwdef"/>
-  <File Type="PWROPT-DCP" Name="EDA2_TOP_pwropt.dcp"/>
-  <File Type="PLACE-DCP" Name="EDA2_TOP_placed.dcp"/>
-  <File Type="PLACE-PRE-SIMILARITY" Name="EDA2_TOP_incremental_reuse_pre_placed.rpt"/>
-  <File Type="POSTPLACE-PWROPT-DCP" Name="EDA2_TOP_postplace_pwropt.dcp"/>
-  <File Type="BITSTR-LTX" Name="EDA2_TOP.ltx"/>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1584848741">
   <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
-  <File Type="BG-BIT" Name="EDA2_TOP.bit"/>
-  <File Type="BITSTR-MSK" Name="EDA2_TOP.msk"/>
-  <File Type="BG-BGN" Name="EDA2_TOP.bgn"/>
-  <File Type="BG-BIN" Name="EDA2_TOP.bin"/>
-  <File Type="RDI-RDI" Name="EDA2_TOP.vdi"/>
-  <File Type="BG-DRC" Name="EDA2_TOP.drc"/>
-  <File Type="POSTROUTE-PHYSOPT-DCP" Name="EDA2_TOP_postroute_physopt.dcp"/>
-  <File Type="BITSTR-MMI" Name="EDA2_TOP.mmi"/>
-  <File Type="BITSTR-SYSDEF" Name="EDA2_TOP.sysdef"/>
-  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="EDA2_TOP_postroute_physopt_bb.dcp"/>
-  <File Type="BITSTR-BMM" Name="EDA2_TOP_bd.bmm"/>
-  <File Type="BITSTR-NKY" Name="EDA2_TOP.nky"/>
-  <File Type="PHYSOPT-DCP" Name="EDA2_TOP_physopt.dcp"/>
-  <File Type="BITSTR-RBT" Name="EDA2_TOP.rbt"/>
-  <File Type="ROUTE-TIMING-PB" Name="EDA2_TOP_timing_summary_routed.pb"/>
-  <File Type="ROUTE-BLACKBOX-DCP" Name="EDA2_TOP_routed_bb.dcp"/>
-  <File Type="ROUTE-DCP" Name="EDA2_TOP_routed.dcp"/>
-  <File Type="ROUTE-ERROR-DCP" Name="EDA2_TOP_routed_error.dcp"/>
+  <File Type="RDI-RDI" Name="CYX_ALU_Core.vdi"/>
+  <File Type="BG-DRC" Name="CYX_ALU_Core.drc"/>
+  <File Type="BG-BGN" Name="CYX_ALU_Core.bgn"/>
+  <File Type="BITSTR-SYSDEF" Name="CYX_ALU_Core.sysdef"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="CYX_ALU_Core.ltx"/>
+  <File Type="BITSTR-MMI" Name="CYX_ALU_Core.mmi"/>
+  <File Type="BITSTR-BMM" Name="CYX_ALU_Core_bd.bmm"/>
+  <File Type="BITSTR-NKY" Name="CYX_ALU_Core.nky"/>
+  <File Type="BITSTR-RBT" Name="CYX_ALU_Core.rbt"/>
+  <File Type="BITSTR-MSK" Name="CYX_ALU_Core.msk"/>
+  <File Type="BG-BIN" Name="CYX_ALU_Core.bin"/>
+  <File Type="BG-BIT" Name="CYX_ALU_Core.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="CYX_ALU_Core_bus_skew_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="CYX_ALU_Core_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="CYX_ALU_Core_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="CYX_ALU_Core_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="CYX_ALU_Core_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="CYX_ALU_Core_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="CYX_ALU_Core_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="CYX_ALU_Core_postroute_physopt.dcp"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="CYX_ALU_Core_bus_skew_routed.rpx"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="CYX_ALU_Core_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW" Name="CYX_ALU_Core_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="CYX_ALU_Core_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-SIMILARITY" Name="CYX_ALU_Core_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-TIMING-RPX" Name="CYX_ALU_Core_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-TIMING-PB" Name="CYX_ALU_Core_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="CYX_ALU_Core_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="CYX_ALU_Core_route_status.pb"/>
+  <File Type="ROUTE-STATUS" Name="CYX_ALU_Core_route_status.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="CYX_ALU_Core_power_routed.rpx"/>
+  <File Type="ROUTE-PWR-SUM" Name="CYX_ALU_Core_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="CYX_ALU_Core_power_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="CYX_ALU_Core_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="CYX_ALU_Core_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="CYX_ALU_Core_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-RPX" Name="CYX_ALU_Core_drc_routed.rpx"/>
+  <File Type="ROUTE-DRC-PB" Name="CYX_ALU_Core_drc_routed.pb"/>
+  <File Type="ROUTE-DRC" Name="CYX_ALU_Core_drc_routed.rpt"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="CYX_ALU_Core_routed_bb.dcp"/>
+  <File Type="ROUTE-DCP" Name="CYX_ALU_Core_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="CYX_ALU_Core_routed_error.dcp"/>
+  <File Type="PHYSOPT-TIMING" Name="CYX_ALU_Core_timing_summary_physopted.rpt"/>
+  <File Type="PHYSOPT-DRC" Name="CYX_ALU_Core_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="CYX_ALU_Core_physopt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="CYX_ALU_Core_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="CYX_ALU_Core_postplace_pwropt.dcp"/>
+  <File Type="PLACE-TIMING" Name="CYX_ALU_Core_timing_summary_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="CYX_ALU_Core_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="CYX_ALU_Core_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-CTRL" Name="CYX_ALU_Core_control_sets_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="CYX_ALU_Core_utilization_placed.pb"/>
+  <File Type="PLACE-UTIL" Name="CYX_ALU_Core_utilization_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="CYX_ALU_Core_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-IO" Name="CYX_ALU_Core_io_placed.rpt"/>
+  <File Type="PLACE-DCP" Name="CYX_ALU_Core_placed.dcp"/>
+  <File Type="PWROPT-DRC" Name="CYX_ALU_Core_drc_pwropted.rpt"/>
+  <File Type="PWROPT-DCP" Name="CYX_ALU_Core_pwropt.dcp"/>
+  <File Type="OPT-HWDEF" Name="CYX_ALU_Core.hwdef"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="CYX_ALU_Core_methodology_drc_opted.rpt"/>
+  <File Type="OPT-DRC" Name="CYX_ALU_Core_drc_opted.rpt"/>
+  <File Type="OPT-DCP" Name="CYX_ALU_Core_opt.dcp"/>
+  <File Type="INIT-TIMING" Name="CYX_ALU_Core_timing_summary_init.rpt"/>
+  <File Type="PWROPT-TIMING" Name="CYX_ALU_Core_timing_summary_pwropted.rpt"/>
+  <File Type="REPORTS-TCL" Name="CYX_ALU_Core_reports.tcl"/>
+  <File Type="OPT-TIMING" Name="CYX_ALU_Core_timing_summary_opted.rpt"/>
+  <File Type="PA-TCL" Name="CYX_ALU_Core.tcl"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/CYX_ALU_Core.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
     <File Path="$PSRCDIR/sources_1/new/EDA2_fsm.v">
       <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -39,6 +88,7 @@
     </File>
     <File Path="$PSRCDIR/sources_1/new/coins_input.v">
       <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -46,6 +96,7 @@
     </File>
     <File Path="$PSRCDIR/sources_1/new/key_scan_hardware_test.v">
       <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -53,6 +104,7 @@
     </File>
     <File Path="$PSRCDIR/sources_1/new/keys_scan.v">
       <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -60,6 +112,7 @@
     </File>
     <File Path="$PSRCDIR/sources_1/new/timer.v">
       <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -67,6 +120,7 @@
     </File>
     <File Path="$PSRCDIR/sources_1/new/EDA2_TOP.v">
       <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -74,7 +128,7 @@
     </File>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>
-      <Option Name="TopModule" Val="EDA2_TOP"/>
+      <Option Name="TopModule" Val="CYX_ALU_Core"/>
     </Config>
   </FileSet>
   <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
@@ -97,7 +151,9 @@
     </Config>
   </FileSet>
   <Strategy Version="1" Minor="2">
-    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2019"/>
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2019">
+      <Desc>Default settings for Implementation.</Desc>
+    </StratHandle>
     <Step Id="init_design"/>
     <Step Id="opt_design"/>
     <Step Id="power_opt_design"/>
@@ -108,5 +164,4 @@
     <Step Id="post_route_phys_opt_design"/>
     <Step Id="write_bitstream"/>
   </Strategy>
-  <BlockFileSet Type="BlockSrcs" Name="Digits_dynamic_display_0"/>
 </GenRun>

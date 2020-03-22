@@ -6,4 +6,4 @@
 # Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 #
 
-vivado -log EDA2_TOP.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source EDA2_TOP.tcl -notrace
+vivado -log CYX_ALU_Core.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source CYX_ALU_Core.tcl -notrace
