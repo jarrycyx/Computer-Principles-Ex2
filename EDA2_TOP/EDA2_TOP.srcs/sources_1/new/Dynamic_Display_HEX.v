@@ -129,19 +129,16 @@ module Digit_decoder(
 endmodule
 
 module Dynamic_Display_HEX(
-    input wire clk100,
+    input wire clk100M,
     input wire[4:0] AN3, 
     input wire[4:0] AN2, 
     input wire[4:0] AN1, 
     input wire[4:0] AN0,
-    output reg EN3, 
-    output reg EN2, 
-    output reg EN1, 
-    output reg EN0,
+    output reg[3:0] EN,
     output wire[7:0] SEGs
     );
     
-    reg[3:0] current_AN;
+    reg[4:0] current_AN;
     reg[19:0] clk_counter;
     
     assign SEGs[0] = 1;
@@ -149,27 +146,27 @@ module Dynamic_Display_HEX(
     initial
     begin
         clk_counter = 0;
-        EN3 = 0; EN2 = 1; EN1 = 1; EN0 = 1; current_AN = AN3;
+        EN[3] = 0; EN[2] = 1; EN[1] = 1; EN[0] = 1; current_AN = AN3;
     end
     
-    always @ (posedge clk100)
+    always @ (posedge clk100M)
     begin
         clk_counter <= clk_counter + 1;
             if (clk_counter[19:18] == 0)
             begin
-                EN3 <= 0; EN2 <= 1; EN1 <= 1; EN0 <= 1; current_AN = AN3;
+                EN[3] <= 0; EN[2] <= 1; EN[1] <= 1; EN[0] <= 1; current_AN = AN3;
             end
             else if (clk_counter[19:18] == 1)
             begin
-                EN3 <= 1; EN2 <= 0; EN1 <= 1; EN0 <= 1; current_AN = AN2;
+                EN[3] <= 1; EN[2] <= 0; EN[1] <= 1; EN[0] <= 1; current_AN = AN2;
             end
             else if (clk_counter[19:18] == 2)
             begin
-                EN3 <= 1; EN2 <= 1; EN1 <= 0; EN0 <= 1; current_AN = AN1;
+                EN[3] <= 1; EN[2] <= 1; EN[1] <= 0; EN[0] <= 1; current_AN = AN1;
             end
             else if (clk_counter[19:18] == 3)
             begin
-                EN3 <= 1; EN2 <= 1; EN1 <= 1; EN0 <= 0; current_AN = AN0;
+                EN[3] <= 1; EN[2] <= 1; EN[1] <= 1; EN[0] <= 0; current_AN = AN0;
             end
     end
     

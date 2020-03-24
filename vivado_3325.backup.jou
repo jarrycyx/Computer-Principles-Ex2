@@ -1,0 +1,55 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sun Mar 22 10:42:01 2020
+# Process ID: 3325
+# Current directory: /home/cyx/Desktop/Ex2-Computer-Principles
+# Command line: vivado
+# Log file: /home/cyx/Desktop/Ex2-Computer-Principles/vivado.log
+# Journal file: /home/cyx/Desktop/Ex2-Computer-Principles/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config /home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_fsm_tb_behav.wcfg
+source CYX_ALU_Core_tb.tcl
+close_sim
+launch_simulation
+open_wave_config /home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_fsm_tb_behav.wcfg
+source CYX_ALU_Core_tb.tcl
+current_wave_config {EDA2_fsm_tb_behav.wcfg}
+add_wave {{/CYX_ALU_Core_tb/my_ALU_Core/PLUS_RES_33bit}} 
+save_wave_config {/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_fsm_tb_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config /home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_fsm_tb_behav.wcfg
+source CYX_ALU_Core_tb.tcl
+close_sim
+launch_simulation
+open_wave_config /home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_fsm_tb_behav.wcfg
+source CYX_ALU_Core_tb.tcl
+close_sim
+launch_simulation
+open_wave_config /home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_fsm_tb_behav.wcfg
+source CYX_ALU_Core_tb.tcl
+close_sim
+launch_simulation
+open_wave_config /home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_fsm_tb_behav.wcfg
+source CYX_ALU_Core_tb.tcl
+set_property -name {xsim.simulate.runtime} -value {10000ns} -objects [get_filesets sim_1]
+reset_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+launch_simulation -mode post-implementation -type timing
+open_wave_config /home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_fsm_tb_behav.wcfg
+source CYX_ALU_Core_tb.tcl
+close [ open /home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.srcs/sources_1/new/CYX_ALU_HW.v w ]
+add_files /home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.srcs/sources_1/new/CYX_ALU_HW.v
+update_compile_order -fileset sources_1
+close [ open /home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.srcs/sources_1/new/Dynamic_Display_HEX.v w ]
+add_files /home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.srcs/sources_1/new/Dynamic_Display_HEX.v
+update_compile_order -fileset sources_1
+close_sim
+close_sim

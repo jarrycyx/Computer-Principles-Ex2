@@ -1,0 +1,534 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sun Mar 22 10:42:01 2020
+# Process ID: 3325
+# Current directory: /home/cyx/Desktop/Ex2-Computer-Principles
+# Command line: vivado
+# Log file: /home/cyx/Desktop/Ex2-Computer-Principles/vivado.log
+# Journal file: /home/cyx/Desktop/Ex2-Computer-Principles/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/cyx/Desktop/Ex2-Computer-Principles/CYX_IP_CATALOG'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2019.1/data/ip'.
+open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 6423.230 ; gain = 112.547 ; free physical = 71 ; free virtual = 1533
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File '/tools/Xilinx/Vivado/2019.1/data/xsim/xsim.ini' copied to run dir:'/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'CYX_ALU_Core_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.sim/sim_1/behav/xsim'
+xvlog --incr --relax -prj CYX_ALU_Core_tb_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.srcs/sources_1/new/CYX_ALU_Core.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CYX_ALU_Core
+WARNING: [VRFC 10-986] literal value truncated to fit in 4 bits [/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.srcs/sources_1/new/CYX_ALU_Core.v:85]
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.srcs/sim_1/new/CYX_ALU_Core_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CYX_ALU_Core_tb
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.sim/sim_1/behav/xsim'
+xelab -wto f1c687206e2645e0843012be57fb58f6 --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot CYX_ALU_Core_tb_behav xil_defaultlib.CYX_ALU_Core_tb xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: /tools/Xilinx/Vivado/2019.1/bin/unwrapped/lnx64.o/xelab -wto f1c687206e2645e0843012be57fb58f6 --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot CYX_ALU_Core_tb_behav xil_defaultlib.CYX_ALU_Core_tb xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.CYX_ALU_Core
+Compiling module xil_defaultlib.CYX_ALU_Core_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot CYX_ALU_Core_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "CYX_ALU_Core_tb_behav -key {Behavioral:sim_1:Functional:CYX_ALU_Core_tb} -tclbatch {CYX_ALU_Core_tb.tcl} -view {/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_fsm_tb_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+open_wave_config /home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_fsm_tb_behav.wcfg
+source CYX_ALU_Core_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000000ns
+xsim: Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 6729.441 ; gain = 69.891 ; free physical = 104 ; free virtual = 1338
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'CYX_ALU_Core_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000000ns
+launch_simulation: Time (s): cpu = 00:00:18 ; elapsed = 00:00:22 . Memory (MB): peak = 6729.441 ; gain = 84.789 ; free physical = 104 ; free virtual = 1338
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File '/tools/Xilinx/Vivado/2019.1/data/xsim/xsim.ini' copied to run dir:'/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'CYX_ALU_Core_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.sim/sim_1/behav/xsim'
+xvlog --incr --relax -prj CYX_ALU_Core_tb_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.srcs/sources_1/new/CYX_ALU_Core.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CYX_ALU_Core
+WARNING: [VRFC 10-986] literal value truncated to fit in 4 bits [/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.srcs/sources_1/new/CYX_ALU_Core.v:85]
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.srcs/sim_1/new/CYX_ALU_Core_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CYX_ALU_Core_tb
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.sim/sim_1/behav/xsim'
+xelab -wto f1c687206e2645e0843012be57fb58f6 --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot CYX_ALU_Core_tb_behav xil_defaultlib.CYX_ALU_Core_tb xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: /tools/Xilinx/Vivado/2019.1/bin/unwrapped/lnx64.o/xelab -wto f1c687206e2645e0843012be57fb58f6 --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot CYX_ALU_Core_tb_behav xil_defaultlib.CYX_ALU_Core_tb xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.CYX_ALU_Core
+Compiling module xil_defaultlib.CYX_ALU_Core_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot CYX_ALU_Core_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "CYX_ALU_Core_tb_behav -key {Behavioral:sim_1:Functional:CYX_ALU_Core_tb} -tclbatch {CYX_ALU_Core_tb.tcl} -view {/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_fsm_tb_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+open_wave_config /home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_fsm_tb_behav.wcfg
+source CYX_ALU_Core_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000000ns
+xsim: Time (s): cpu = 00:00:07 ; elapsed = 00:00:05 . Memory (MB): peak = 6748.383 ; gain = 16.922 ; free physical = 168 ; free virtual = 1408
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'CYX_ALU_Core_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000000ns
+launch_simulation: Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 6748.383 ; gain = 16.922 ; free physical = 168 ; free virtual = 1409
+current_wave_config {EDA2_fsm_tb_behav.wcfg}
+EDA2_fsm_tb_behav.wcfg
+add_wave {{/CYX_ALU_Core_tb/my_ALU_Core/PLUS_RES_33bit}} 
+save_wave_config {/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_fsm_tb_behav.wcfg}
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 6750.383 ; gain = 0.000 ; free physical = 87 ; free virtual = 1249
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File '/tools/Xilinx/Vivado/2019.1/data/xsim/xsim.ini' copied to run dir:'/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'CYX_ALU_Core_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.sim/sim_1/behav/xsim'
+xvlog --incr --relax -prj CYX_ALU_Core_tb_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.srcs/sources_1/new/CYX_ALU_Core.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CYX_ALU_Core
+WARNING: [VRFC 10-986] literal value truncated to fit in 4 bits [/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.srcs/sources_1/new/CYX_ALU_Core.v:85]
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.srcs/sim_1/new/CYX_ALU_Core_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CYX_ALU_Core_tb
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.sim/sim_1/behav/xsim'
+xelab -wto f1c687206e2645e0843012be57fb58f6 --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot CYX_ALU_Core_tb_behav xil_defaultlib.CYX_ALU_Core_tb xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: /tools/Xilinx/Vivado/2019.1/bin/unwrapped/lnx64.o/xelab -wto f1c687206e2645e0843012be57fb58f6 --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot CYX_ALU_Core_tb_behav xil_defaultlib.CYX_ALU_Core_tb xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.CYX_ALU_Core
+Compiling module xil_defaultlib.CYX_ALU_Core_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot CYX_ALU_Core_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "CYX_ALU_Core_tb_behav -key {Behavioral:sim_1:Functional:CYX_ALU_Core_tb} -tclbatch {CYX_ALU_Core_tb.tcl} -view {/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_fsm_tb_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+open_wave_config /home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_fsm_tb_behav.wcfg
+source CYX_ALU_Core_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000000ns
+xsim: Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 6760.391 ; gain = 10.008 ; free physical = 272 ; free virtual = 1412
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'CYX_ALU_Core_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000000ns
+launch_simulation: Time (s): cpu = 00:00:12 ; elapsed = 00:00:15 . Memory (MB): peak = 6760.391 ; gain = 10.008 ; free physical = 272 ; free virtual = 1412
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File '/tools/Xilinx/Vivado/2019.1/data/xsim/xsim.ini' copied to run dir:'/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'CYX_ALU_Core_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.sim/sim_1/behav/xsim'
+xvlog --incr --relax -prj CYX_ALU_Core_tb_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.srcs/sources_1/new/CYX_ALU_Core.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CYX_ALU_Core
+WARNING: [VRFC 10-986] literal value truncated to fit in 4 bits [/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.srcs/sources_1/new/CYX_ALU_Core.v:85]
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.srcs/sim_1/new/CYX_ALU_Core_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CYX_ALU_Core_tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.sim/sim_1/behav/xsim'
+xelab -wto f1c687206e2645e0843012be57fb58f6 --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot CYX_ALU_Core_tb_behav xil_defaultlib.CYX_ALU_Core_tb xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: /tools/Xilinx/Vivado/2019.1/bin/unwrapped/lnx64.o/xelab -wto f1c687206e2645e0843012be57fb58f6 --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot CYX_ALU_Core_tb_behav xil_defaultlib.CYX_ALU_Core_tb xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.CYX_ALU_Core
+Compiling module xil_defaultlib.CYX_ALU_Core_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot CYX_ALU_Core_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "CYX_ALU_Core_tb_behav -key {Behavioral:sim_1:Functional:CYX_ALU_Core_tb} -tclbatch {CYX_ALU_Core_tb.tcl} -view {/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_fsm_tb_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+open_wave_config /home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_fsm_tb_behav.wcfg
+source CYX_ALU_Core_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000000ns
+xsim: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 6760.391 ; gain = 0.000 ; free physical = 448 ; free virtual = 1811
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'CYX_ALU_Core_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000000ns
+launch_simulation: Time (s): cpu = 00:00:14 ; elapsed = 00:00:18 . Memory (MB): peak = 6760.391 ; gain = 0.000 ; free physical = 448 ; free virtual = 1811
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File '/tools/Xilinx/Vivado/2019.1/data/xsim/xsim.ini' copied to run dir:'/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'CYX_ALU_Core_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.sim/sim_1/behav/xsim'
+xvlog --incr --relax -prj CYX_ALU_Core_tb_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.srcs/sources_1/new/CYX_ALU_Core.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CYX_ALU_Core
+WARNING: [VRFC 10-986] literal value truncated to fit in 4 bits [/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.srcs/sources_1/new/CYX_ALU_Core.v:85]
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.srcs/sim_1/new/CYX_ALU_Core_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CYX_ALU_Core_tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.sim/sim_1/behav/xsim'
+xelab -wto f1c687206e2645e0843012be57fb58f6 --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot CYX_ALU_Core_tb_behav xil_defaultlib.CYX_ALU_Core_tb xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: /tools/Xilinx/Vivado/2019.1/bin/unwrapped/lnx64.o/xelab -wto f1c687206e2645e0843012be57fb58f6 --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot CYX_ALU_Core_tb_behav xil_defaultlib.CYX_ALU_Core_tb xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.CYX_ALU_Core
+Compiling module xil_defaultlib.CYX_ALU_Core_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot CYX_ALU_Core_tb_behav
+run_program: Time (s): cpu = 00:00:03 ; elapsed = 00:00:08 . Memory (MB): peak = 6760.391 ; gain = 0.000 ; free physical = 378 ; free virtual = 1729
+INFO: [USF-XSim-69] 'elaborate' step finished in '8' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "CYX_ALU_Core_tb_behav -key {Behavioral:sim_1:Functional:CYX_ALU_Core_tb} -tclbatch {CYX_ALU_Core_tb.tcl} -view {/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_fsm_tb_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+open_wave_config /home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_fsm_tb_behav.wcfg
+source CYX_ALU_Core_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000000ns
+xsim: Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 6776.398 ; gain = 16.008 ; free physical = 252 ; free virtual = 1410
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'CYX_ALU_Core_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000000ns
+launch_simulation: Time (s): cpu = 00:00:11 ; elapsed = 00:00:19 . Memory (MB): peak = 6776.398 ; gain = 16.008 ; free physical = 252 ; free virtual = 1410
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File '/tools/Xilinx/Vivado/2019.1/data/xsim/xsim.ini' copied to run dir:'/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'CYX_ALU_Core_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.sim/sim_1/behav/xsim'
+xvlog --incr --relax -prj CYX_ALU_Core_tb_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.srcs/sources_1/new/CYX_ALU_Core.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CYX_ALU_Core
+WARNING: [VRFC 10-986] literal value truncated to fit in 4 bits [/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.srcs/sources_1/new/CYX_ALU_Core.v:85]
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.srcs/sim_1/new/CYX_ALU_Core_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CYX_ALU_Core_tb
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.sim/sim_1/behav/xsim'
+xelab -wto f1c687206e2645e0843012be57fb58f6 --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot CYX_ALU_Core_tb_behav xil_defaultlib.CYX_ALU_Core_tb xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: /tools/Xilinx/Vivado/2019.1/bin/unwrapped/lnx64.o/xelab -wto f1c687206e2645e0843012be57fb58f6 --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot CYX_ALU_Core_tb_behav xil_defaultlib.CYX_ALU_Core_tb xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.CYX_ALU_Core
+Compiling module xil_defaultlib.CYX_ALU_Core_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot CYX_ALU_Core_tb_behav
+run_program: Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 6776.398 ; gain = 0.000 ; free physical = 219 ; free virtual = 1588
+INFO: [USF-XSim-69] 'elaborate' step finished in '7' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "CYX_ALU_Core_tb_behav -key {Behavioral:sim_1:Functional:CYX_ALU_Core_tb} -tclbatch {CYX_ALU_Core_tb.tcl} -view {/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_fsm_tb_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+open_wave_config /home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_fsm_tb_behav.wcfg
+source CYX_ALU_Core_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000000ns
+xsim: Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 6776.398 ; gain = 0.000 ; free physical = 86 ; free virtual = 1110
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'CYX_ALU_Core_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000000ns
+launch_simulation: Time (s): cpu = 00:00:11 ; elapsed = 00:00:18 . Memory (MB): peak = 6776.398 ; gain = 0.000 ; free physical = 82 ; free virtual = 1110
+WARNING: [IP_Flow 19-3899] Cannot get the environment domain name variable for the component vendor name. Setting the vendor name to 'user.org'.
+set_property -name {xsim.simulate.runtime} -value {10000ns} -objects [get_filesets sim_1]
+WARNING: [IP_Flow 19-3899] Cannot get the environment domain name variable for the component vendor name. Setting the vendor name to 'user.org'.
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.srcs/sources_1/new/CYX_ALU_Core.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.srcs/sources_1/ip/Digits_dynamic_display_0/src/Digits_dynamic_display.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.srcs/sources_1/new/key_scan_hardware_test.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.srcs/sim_1/new/CYX_ALU_Core_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.srcs/sources_1/new/keys_scan.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.srcs/sources_1/ip/Digits_dynamic_display_0/synth/Digits_dynamic_display_0.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.srcs/sources_1/new/CYX_ALU_Core.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.srcs/sources_1/ip/Digits_dynamic_display_0/src/Digits_dynamic_display.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.srcs/sources_1/new/key_scan_hardware_test.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.srcs/sim_1/new/CYX_ALU_Core_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.srcs/sources_1/new/keys_scan.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.srcs/sources_1/ip/Digits_dynamic_display_0/synth/Digits_dynamic_display_0.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.srcs/sources_1/new/CYX_ALU_Core.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.srcs/sources_1/ip/Digits_dynamic_display_0/src/Digits_dynamic_display.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.srcs/sources_1/new/key_scan_hardware_test.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.srcs/sim_1/new/CYX_ALU_Core_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.srcs/sources_1/new/keys_scan.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.srcs/sources_1/ip/Digits_dynamic_display_0/synth/Digits_dynamic_display_0.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.srcs/sources_1/new/CYX_ALU_Core.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.srcs/sources_1/ip/Digits_dynamic_display_0/src/Digits_dynamic_display.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.srcs/sources_1/new/key_scan_hardware_test.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.srcs/sim_1/new/CYX_ALU_Core_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.srcs/sources_1/new/keys_scan.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.srcs/sources_1/ip/Digits_dynamic_display_0/synth/Digits_dynamic_display_0.v:]
+WARNING: [IP_Flow 19-3899] Cannot get the environment domain name variable for the component vendor name. Setting the vendor name to 'user.org'.
+reset_run synth_1
+launch_runs impl_1 -jobs 4
+[Sun Mar 22 11:45:42 2020] Launched synth_1...
+Run output will be captured here: /home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.runs/synth_1/runme.log
+[Sun Mar 22 11:45:42 2020] Launched impl_1...
+Run output will be captured here: /home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.runs/impl_1/runme.log
+launch_simulation -mode post-implementation -type timing
+INFO: [Vivado 12-5682] Launching post-implementation timing simulation in '/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.sim/sim_1/impl/timing/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Netlist 29-17] Analyzing 24 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2019.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Constraints 18-5170] The checkpoint was created with non-default parameter values which do not match the current Vivado settings.  Mismatching parameters are:
+  general.maxThreads
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00.17 ; elapsed = 00:00:01 . Memory (MB): peak = 7498.945 ; gain = 0.000 ; free physical = 62 ; free virtual = 486
+Restored from archive | CPU: 0.440000 secs | Memory: 1.254723 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00.17 ; elapsed = 00:00:01 . Memory (MB): peak = 7498.945 ; gain = 0.000 ; free physical = 62 ; free virtual = 485
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 7498.945 ; gain = 0.000 ; free physical = 69 ; free virtual = 524
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:32 ; elapsed = 00:00:59 . Memory (MB): peak = 7647.945 ; gain = 855.777 ; free physical = 124 ; free virtual = 496
+INFO: [SIM-utils-31] Writing simulation netlist file for design 'impl_1'...
+INFO: [SIM-utils-32] write_verilog -mode timesim -nolib -sdf_anno true -force -file "/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.sim/sim_1/impl/timing/xsim/CYX_ALU_Core_tb_time_impl.v"
+INFO: [SIM-utils-34] Writing SDF file...
+INFO: [SIM-utils-35] write_sdf -mode timesim -process_corner slow -force -file "/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.sim/sim_1/impl/timing/xsim/CYX_ALU_Core_tb_time_impl.sdf"
+INFO: [SIM-utils-36] Netlist generated:/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.sim/sim_1/impl/timing/xsim/CYX_ALU_Core_tb_time_impl.v
+INFO: [SIM-utils-37] SDF generated:/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.sim/sim_1/impl/timing/xsim/CYX_ALU_Core_tb_time_impl.sdf
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File '/tools/Xilinx/Vivado/2019.1/data/xsim/xsim.ini' copied to run dir:'/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.sim/sim_1/impl/timing/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'CYX_ALU_Core_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.sim/sim_1/impl/timing/xsim'
+xvlog --incr --relax -prj CYX_ALU_Core_tb_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.sim/sim_1/impl/timing/xsim/CYX_ALU_Core_tb_time_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CYX_ALU_Core
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.srcs/sim_1/new/CYX_ALU_Core_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CYX_ALU_Core_tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.sim/sim_1/impl/timing/xsim'
+xelab -wto f1c687206e2645e0843012be57fb58f6 --incr --debug typical --relax --mt 8 --maxdelay -L xil_defaultlib -L simprims_ver -L secureip --snapshot CYX_ALU_Core_tb_time_impl -transport_int_delays -pulse_r 0 -pulse_int_r 0 -pulse_e 0 -pulse_int_e 0 xil_defaultlib.CYX_ALU_Core_tb xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: /tools/Xilinx/Vivado/2019.1/bin/unwrapped/lnx64.o/xelab -wto f1c687206e2645e0843012be57fb58f6 --incr --debug typical --relax --mt 8 --maxdelay -L xil_defaultlib -L simprims_ver -L secureip --snapshot CYX_ALU_Core_tb_time_impl -transport_int_delays -pulse_r 0 -pulse_int_r 0 -pulse_e 0 -pulse_int_e 0 xil_defaultlib.CYX_ALU_Core_tb xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+INFO: [XSIM 43-3451] SDF backannotation process started with SDF file "CYX_ALU_Core_tb_time_impl.sdf", for root module "CYX_ALU_Core_tb/my_ALU_Core".
+INFO: [XSIM 43-3452] SDF backannotation was successful for SDF file "CYX_ALU_Core_tb_time_impl.sdf", for root module "CYX_ALU_Core_tb/my_ALU_Core".
+Time Resolution for simulation is 1ps
+Compiling module simprims_ver.IBUF
+Compiling module simprims_ver.OBUF
+Compiling module simprims_ver.LUT5
+Compiling module simprims_ver.LUT6
+Compiling module simprims_ver.CARRY4
+Compiling module simprims_ver.x_lut1_mux2
+Compiling module simprims_ver.LUT1
+Compiling module simprims_ver.x_lut3_mux8
+Compiling module simprims_ver.LUT3
+Compiling module simprims_ver.x_lut2_mux4
+Compiling module simprims_ver.LUT2
+Compiling module simprims_ver.LUT4
+Compiling module xil_defaultlib.CYX_ALU_Core
+Compiling module xil_defaultlib.CYX_ALU_Core_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot CYX_ALU_Core_tb_time_impl
+
+****** Webtalk v2019.1 (64-bit)
+  **** SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+  **** IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source /home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.sim/sim_1/impl/timing/xsim/xsim.dir/CYX_ALU_Core_tb_time_impl/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] '/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.sim/sim_1/impl/timing/xsim/xsim.dir/CYX_ALU_Core_tb_time_impl/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Sun Mar 22 11:55:08 2020. For additional details about this file, please refer to the WebTalk help file at /tools/Xilinx/Vivado/2019.1/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Sun Mar 22 11:55:08 2020...
+run_program: Time (s): cpu = 00:00:10 ; elapsed = 00:00:15 . Memory (MB): peak = 7647.945 ; gain = 0.000 ; free physical = 216 ; free virtual = 506
+INFO: [USF-XSim-69] 'elaborate' step finished in '15' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.sim/sim_1/impl/timing/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "CYX_ALU_Core_tb_time_impl -key {Post-Implementation:sim_1:Timing:CYX_ALU_Core_tb} -tclbatch {CYX_ALU_Core_tb.tcl} -view {/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_fsm_tb_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+open_wave_config /home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_fsm_tb_behav.wcfg
+WARNING: Simulation object /CYX_ALU_Core_tb/my_ALU_Core/PLUS_RES_33bit was not found in the design.
+source CYX_ALU_Core_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 10000ns
+xsim: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 7671.633 ; gain = 23.688 ; free physical = 83 ; free virtual = 461
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'CYX_ALU_Core_tb_time_impl' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 10000ns
+launch_simulation: Time (s): cpu = 00:00:58 ; elapsed = 00:01:32 . Memory (MB): peak = 7671.633 ; gain = 879.465 ; free physical = 83 ; free virtual = 461
+close [ open /home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.srcs/sources_1/new/CYX_ALU_HW.v w ]
+add_files /home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.srcs/sources_1/new/CYX_ALU_HW.v
+update_compile_order -fileset sources_1
+close [ open /home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.srcs/sources_1/new/Dynamic_Display_HEX.v w ]
+add_files /home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.srcs/sources_1/new/Dynamic_Display_HEX.v
+update_compile_order -fileset sources_1
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:07 ; elapsed = 00:00:13 . Memory (MB): peak = 7784.719 ; gain = 0.000 ; free physical = 125 ; free virtual = 301
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Mar 22 12:27:18 2020...

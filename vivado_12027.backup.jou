@@ -2,11 +2,13 @@
 # Vivado v2019.1 (64-bit)
 # SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
 # IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
-# Start of session at: Tue Mar 24 19:09:08 2020
-# Process ID: 1940
+# Start of session at: Sun Mar 22 14:30:21 2020
+# Process ID: 12027
 # Current directory: /home/cyx/Desktop/Ex2-Computer-Principles
 # Command line: vivado
 # Log file: /home/cyx/Desktop/Ex2-Computer-Principles/vivado.log
 # Journal file: /home/cyx/Desktop/Ex2-Computer-Principles/vivado.jou
 #-----------------------------------------------------------
 start_gui
+open_project /home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.xpr
+update_compile_order -fileset sources_1

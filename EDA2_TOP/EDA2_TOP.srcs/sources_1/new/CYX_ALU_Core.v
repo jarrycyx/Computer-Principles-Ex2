@@ -82,7 +82,7 @@ module CYX_ALU_Core(
                 end
             2'b11: 
                 begin
-                    RES = 4'hFFFF;
+                    RES = 32'hFFFFFFFF;
                     CPR_RES = PLUS_RES_33bit[31];
                     Overflow = CARRY_TO_31 ^ CARRY_TO_32;
                     Carry = CARRY_TO_32;
