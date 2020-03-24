@@ -3,65 +3,254 @@
    <wave_state>
    </wave_state>
    <db_ref_list>
-      <db_ref path="CYX_ALU_Core_tb_behav.wdb" id="1">
+      <db_ref path="CYX_HW_tb_time_synth.wdb" id="1">
          <top_modules>
-            <top_module name="CYX_ALU_Core_tb" />
+            <top_module name="CYX_HW_tb" />
             <top_module name="glbl" />
          </top_modules>
       </db_ref>
    </db_ref_list>
    <zoom_setting>
-      <ZoomStartTime time="0fs"></ZoomStartTime>
-      <ZoomEndTime time="277000001fs"></ZoomEndTime>
-      <Cursor1Time time="276000000fs"></Cursor1Time>
+      <ZoomStartTime time="1330833000fs"></ZoomStartTime>
+      <ZoomEndTime time="2860833001fs"></ZoomEndTime>
+      <Cursor1Time time="2770833000fs"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
-      <NameColumnWidth column_width="124"></NameColumnWidth>
+      <NameColumnWidth column_width="182"></NameColumnWidth>
       <ValueColumnWidth column_width="79"></ValueColumnWidth>
    </column_width_setting>
-   <WVObjectSize size="11" />
-   <wvobject type="logic" fp_name="/CYX_ALU_Core_tb/A_inv_tb">
-      <obj_property name="ElementShortName">A_inv_tb</obj_property>
-      <obj_property name="ObjectShortName">A_inv_tb</obj_property>
+   <WVObjectSize size="58" />
+   <wvobject type="logic" fp_name="/CYX_HW_tb/Carry_HW_tb">
+      <obj_property name="ElementShortName">Carry_HW_tb</obj_property>
+      <obj_property name="ObjectShortName">Carry_HW_tb</obj_property>
    </wvobject>
-   <wvobject type="logic" fp_name="/CYX_ALU_Core_tb/B_inv_tb">
-      <obj_property name="ElementShortName">B_inv_tb</obj_property>
-      <obj_property name="ObjectShortName">B_inv_tb</obj_property>
+   <wvobject type="logic" fp_name="/CYX_HW_tb/Zero_HW_tb">
+      <obj_property name="ElementShortName">Zero_HW_tb</obj_property>
+      <obj_property name="ObjectShortName">Zero_HW_tb</obj_property>
    </wvobject>
-   <wvobject type="array" fp_name="/CYX_ALU_Core_tb/Oper_tb">
-      <obj_property name="ElementShortName">Oper_tb[1:0]</obj_property>
-      <obj_property name="ObjectShortName">Oper_tb[1:0]</obj_property>
+   <wvobject type="logic" fp_name="/CYX_HW_tb/Overflow_HW_tb">
+      <obj_property name="ElementShortName">Overflow_HW_tb</obj_property>
+      <obj_property name="ObjectShortName">Overflow_HW_tb</obj_property>
    </wvobject>
-   <wvobject type="array" fp_name="/CYX_ALU_Core_tb/RES_tb">
-      <obj_property name="ElementShortName">RES_tb[31:0]</obj_property>
-      <obj_property name="ObjectShortName">RES_tb[31:0]</obj_property>
+   <wvobject type="logic" fp_name="/CYX_HW_tb/CPR_RES_HW_tb">
+      <obj_property name="ElementShortName">CPR_RES_HW_tb</obj_property>
+      <obj_property name="ObjectShortName">CPR_RES_HW_tb</obj_property>
    </wvobject>
-   <wvobject type="logic" fp_name="/CYX_ALU_Core_tb/cpr_res_tb">
-      <obj_property name="ElementShortName">cpr_res_tb</obj_property>
-      <obj_property name="ObjectShortName">cpr_res_tb</obj_property>
+   <wvobject type="logic" fp_name="/CYX_HW_tb/A_inv_HW_tb">
+      <obj_property name="ElementShortName">A_inv_HW_tb</obj_property>
+      <obj_property name="ObjectShortName">A_inv_HW_tb</obj_property>
    </wvobject>
-   <wvobject type="logic" fp_name="/CYX_ALU_Core_tb/of_tb">
-      <obj_property name="ElementShortName">of_tb</obj_property>
-      <obj_property name="ObjectShortName">of_tb</obj_property>
+   <wvobject type="logic" fp_name="/CYX_HW_tb/B_inv_HW_tb">
+      <obj_property name="ElementShortName">B_inv_HW_tb</obj_property>
+      <obj_property name="ObjectShortName">B_inv_HW_tb</obj_property>
    </wvobject>
-   <wvobject type="logic" fp_name="/CYX_ALU_Core_tb/z_tb">
-      <obj_property name="ElementShortName">z_tb</obj_property>
-      <obj_property name="ObjectShortName">z_tb</obj_property>
+   <wvobject type="array" fp_name="/CYX_HW_tb/Oper_HW_tb">
+      <obj_property name="ElementShortName">Oper_HW_tb[1:0]</obj_property>
+      <obj_property name="ObjectShortName">Oper_HW_tb[1:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
    </wvobject>
-   <wvobject type="logic" fp_name="/CYX_ALU_Core_tb/cr_tb">
-      <obj_property name="ElementShortName">cr_tb</obj_property>
-      <obj_property name="ObjectShortName">cr_tb</obj_property>
+   <wvobject type="logic" fp_name="/CYX_HW_tb/disp_res_tb">
+      <obj_property name="ElementShortName">disp_res_tb</obj_property>
+      <obj_property name="ObjectShortName">disp_res_tb</obj_property>
    </wvobject>
-   <wvobject type="array" fp_name="/CYX_ALU_Core_tb/A_tb">
-      <obj_property name="ElementShortName">A_tb[31:0]</obj_property>
-      <obj_property name="ObjectShortName">A_tb[31:0]</obj_property>
+   <wvobject type="logic" fp_name="/CYX_HW_tb/clk100MHz_tb">
+      <obj_property name="ElementShortName">clk100MHz_tb</obj_property>
+      <obj_property name="ObjectShortName">clk100MHz_tb</obj_property>
    </wvobject>
-   <wvobject type="array" fp_name="/CYX_ALU_Core_tb/B_tb">
-      <obj_property name="ElementShortName">B_tb[31:0]</obj_property>
-      <obj_property name="ObjectShortName">B_tb[31:0]</obj_property>
+   <wvobject type="array" fp_name="/CYX_HW_tb/EN_tb">
+      <obj_property name="ElementShortName">EN_tb[3:0]</obj_property>
+      <obj_property name="ObjectShortName">EN_tb[3:0]</obj_property>
    </wvobject>
-   <wvobject type="array" fp_name="/CYX_ALU_Core_tb/my_ALU_Core/PLUS_RES_33bit">
-      <obj_property name="ElementShortName">PLUS_RES_33bit[32:0]</obj_property>
-      <obj_property name="ObjectShortName">PLUS_RES_33bit[32:0]</obj_property>
+   <wvobject type="array" fp_name="/CYX_HW_tb/SEGs_tb">
+      <obj_property name="ElementShortName">SEGs_tb[7:0]</obj_property>
+      <obj_property name="ObjectShortName">SEGs_tb[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/CYX_HW_tb/input_key_tb">
+      <obj_property name="ElementShortName">input_key_tb[4:0]</obj_property>
+      <obj_property name="ObjectShortName">input_key_tb[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/CYX_HW_tb/my_ALU_HW/RES_HW">
+      <obj_property name="ElementShortName">RES_HW[30:30]</obj_property>
+      <obj_property name="ObjectShortName">RES_HW[30:30]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/CYX_HW_tb/my_ALU_HW/disp_res">
+      <obj_property name="ElementShortName">disp_res</obj_property>
+      <obj_property name="ObjectShortName">disp_res</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/CYX_HW_tb/my_ALU_HW/RES_HW">
+      <obj_property name="ElementShortName">RES_HW[30:30]</obj_property>
+      <obj_property name="ObjectShortName">RES_HW[30:30]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/CYX_HW_tb/DISP_tb">
+      <obj_property name="ElementShortName">DISP_tb[15:0]</obj_property>
+      <obj_property name="ObjectShortName">DISP_tb[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/CYX_HW_tb/my_ALU_HW/my_Digits_Display/clk100MHz_IBUF_BUFG">
+      <obj_property name="ElementShortName">clk100MHz_IBUF_BUFG</obj_property>
+      <obj_property name="ObjectShortName">clk100MHz_IBUF_BUFG</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/CYX_HW_tb/state_tb">
+      <obj_property name="ElementShortName">state_tb[1:0]</obj_property>
+      <obj_property name="ObjectShortName">state_tb[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/CYX_HW_tb/my_ALU_HW/state">
+      <obj_property name="ElementShortName">state[1:0]</obj_property>
+      <obj_property name="ObjectShortName">state[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/CYX_HW_tb/my_ALU_HW/DISP">
+      <obj_property name="ElementShortName">DISP[15:0]</obj_property>
+      <obj_property name="ObjectShortName">DISP[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/CYX_HW_tb/my_ALU_HW/DISP">
+      <obj_property name="ElementShortName">DISP[15:0]</obj_property>
+      <obj_property name="ObjectShortName">DISP[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/CYX_HW_tb/my_ALU_HW/disp_res">
+      <obj_property name="ElementShortName">disp_res</obj_property>
+      <obj_property name="ObjectShortName">disp_res</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/CYX_HW_tb/my_ALU_HW/input_key">
+      <obj_property name="ElementShortName">input_key[4:0]</obj_property>
+      <obj_property name="ObjectShortName">input_key[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/CYX_HW_tb/my_ALU_HW/A_For_Calc0">
+      <obj_property name="ElementShortName">A_For_Calc0[31:29]</obj_property>
+      <obj_property name="ObjectShortName">A_For_Calc0[31:29]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/CYX_HW_tb/my_ALU_HW/A_inv_HW">
+      <obj_property name="ElementShortName">A_inv_HW</obj_property>
+      <obj_property name="ObjectShortName">A_inv_HW</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/CYX_HW_tb/my_ALU_HW/A_inv_HW_IBUF">
+      <obj_property name="ElementShortName">A_inv_HW_IBUF</obj_property>
+      <obj_property name="ObjectShortName">A_inv_HW_IBUF</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/CYX_HW_tb/my_ALU_HW/B_For_Calc0">
+      <obj_property name="ElementShortName">B_For_Calc0[31:29]</obj_property>
+      <obj_property name="ObjectShortName">B_For_Calc0[31:29]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/CYX_HW_tb/my_ALU_HW/B_inv_HW">
+      <obj_property name="ElementShortName">B_inv_HW</obj_property>
+      <obj_property name="ObjectShortName">B_inv_HW</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/CYX_HW_tb/my_ALU_HW/B_inv_HW_IBUF">
+      <obj_property name="ElementShortName">B_inv_HW_IBUF</obj_property>
+      <obj_property name="ObjectShortName">B_inv_HW_IBUF</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/CYX_HW_tb/my_ALU_HW/CARRY_TO_31">
+      <obj_property name="ElementShortName">CARRY_TO_31</obj_property>
+      <obj_property name="ObjectShortName">CARRY_TO_31</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/CYX_HW_tb/my_ALU_HW/CPR_RES_HW">
+      <obj_property name="ElementShortName">CPR_RES_HW</obj_property>
+      <obj_property name="ObjectShortName">CPR_RES_HW</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/CYX_HW_tb/my_ALU_HW/CPR_RES_HW_OBUF">
+      <obj_property name="ElementShortName">CPR_RES_HW_OBUF</obj_property>
+      <obj_property name="ObjectShortName">CPR_RES_HW_OBUF</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/CYX_HW_tb/my_ALU_HW/CPR_RES_HW_OBUF_inst_i_2_n_0">
+      <obj_property name="ElementShortName">CPR_RES_HW_OBUF_inst_i_2_n_0</obj_property>
+      <obj_property name="ObjectShortName">CPR_RES_HW_OBUF_inst_i_2_n_0</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/CYX_HW_tb/my_ALU_HW/Carry_HW">
+      <obj_property name="ElementShortName">Carry_HW</obj_property>
+      <obj_property name="ObjectShortName">Carry_HW</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/CYX_HW_tb/my_ALU_HW/Carry_HW_OBUF">
+      <obj_property name="ElementShortName">Carry_HW_OBUF</obj_property>
+      <obj_property name="ObjectShortName">Carry_HW_OBUF</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/CYX_HW_tb/my_ALU_HW/Carry_HW_OBUF_inst_i_5_n_0">
+      <obj_property name="ElementShortName">Carry_HW_OBUF_inst_i_5_n_0</obj_property>
+      <obj_property name="ObjectShortName">Carry_HW_OBUF_inst_i_5_n_0</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/CYX_HW_tb/my_ALU_HW/Carry_HW_OBUF_inst_i_6_n_0">
+      <obj_property name="ElementShortName">Carry_HW_OBUF_inst_i_6_n_0</obj_property>
+      <obj_property name="ObjectShortName">Carry_HW_OBUF_inst_i_6_n_0</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/CYX_HW_tb/my_ALU_HW/DISP">
+      <obj_property name="ElementShortName">DISP[15:0]</obj_property>
+      <obj_property name="ObjectShortName">DISP[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/CYX_HW_tb/my_ALU_HW/EN">
+      <obj_property name="ElementShortName">EN[3:0]</obj_property>
+      <obj_property name="ObjectShortName">EN[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/CYX_HW_tb/my_ALU_HW/EN_OBUF">
+      <obj_property name="ElementShortName">EN_OBUF[3:0]</obj_property>
+      <obj_property name="ObjectShortName">EN_OBUF[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/CYX_HW_tb/my_ALU_HW/Oper_HW">
+      <obj_property name="ElementShortName">Oper_HW[1:0]</obj_property>
+      <obj_property name="ObjectShortName">Oper_HW[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/CYX_HW_tb/my_ALU_HW/Oper_HW_IBUF">
+      <obj_property name="ElementShortName">Oper_HW_IBUF[1:0]</obj_property>
+      <obj_property name="ObjectShortName">Oper_HW_IBUF[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/CYX_HW_tb/my_ALU_HW/Overflow_HW">
+      <obj_property name="ElementShortName">Overflow_HW</obj_property>
+      <obj_property name="ObjectShortName">Overflow_HW</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/CYX_HW_tb/my_ALU_HW/Overflow_HW_OBUF">
+      <obj_property name="ElementShortName">Overflow_HW_OBUF</obj_property>
+      <obj_property name="ObjectShortName">Overflow_HW_OBUF</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/CYX_HW_tb/my_ALU_HW/RES_HW">
+      <obj_property name="ElementShortName">RES_HW[30:30]</obj_property>
+      <obj_property name="ObjectShortName">RES_HW[30:30]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/CYX_HW_tb/my_ALU_HW/SEGs">
+      <obj_property name="ElementShortName">SEGs[7:0]</obj_property>
+      <obj_property name="ObjectShortName">SEGs[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/CYX_HW_tb/my_ALU_HW/SEGs_OBUF">
+      <obj_property name="ElementShortName">SEGs_OBUF[2:2]</obj_property>
+      <obj_property name="ObjectShortName">SEGs_OBUF[2:2]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/CYX_HW_tb/my_ALU_HW/Zero_HW">
+      <obj_property name="ElementShortName">Zero_HW</obj_property>
+      <obj_property name="ObjectShortName">Zero_HW</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/CYX_HW_tb/my_ALU_HW/Zero_HW_OBUF">
+      <obj_property name="ElementShortName">Zero_HW_OBUF</obj_property>
+      <obj_property name="ObjectShortName">Zero_HW_OBUF</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/CYX_HW_tb/my_ALU_HW/Zero_HW_OBUF_inst_i_2_n_0">
+      <obj_property name="ElementShortName">Zero_HW_OBUF_inst_i_2_n_0</obj_property>
+      <obj_property name="ObjectShortName">Zero_HW_OBUF_inst_i_2_n_0</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/CYX_HW_tb/my_ALU_HW/Zero_HW_OBUF_inst_i_4_n_0">
+      <obj_property name="ElementShortName">Zero_HW_OBUF_inst_i_4_n_0</obj_property>
+      <obj_property name="ObjectShortName">Zero_HW_OBUF_inst_i_4_n_0</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/CYX_HW_tb/my_ALU_HW/Zero_HW_OBUF_inst_i_5_n_0">
+      <obj_property name="ElementShortName">Zero_HW_OBUF_inst_i_5_n_0</obj_property>
+      <obj_property name="ObjectShortName">Zero_HW_OBUF_inst_i_5_n_0</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/CYX_HW_tb/my_ALU_HW/clk100MHz">
+      <obj_property name="ElementShortName">clk100MHz</obj_property>
+      <obj_property name="ObjectShortName">clk100MHz</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/CYX_HW_tb/my_ALU_HW/clk100MHz_IBUF">
+      <obj_property name="ElementShortName">clk100MHz_IBUF</obj_property>
+      <obj_property name="ObjectShortName">clk100MHz_IBUF</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/CYX_HW_tb/my_ALU_HW/clk100MHz_IBUF_BUFG">
+      <obj_property name="ElementShortName">clk100MHz_IBUF_BUFG</obj_property>
+      <obj_property name="ObjectShortName">clk100MHz_IBUF_BUFG</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/CYX_HW_tb/my_ALU_HW/state">
+      <obj_property name="ElementShortName">state[1:0]</obj_property>
+      <obj_property name="ObjectShortName">state[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/CYX_HW_tb/my_ALU_HW/this_ALU_Core_n_7">
+      <obj_property name="ElementShortName">this_ALU_Core_n_7</obj_property>
+      <obj_property name="ObjectShortName">this_ALU_Core_n_7</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/CYX_HW_tb/my_ALU_HW/this_ALU_Core_n_8">
+      <obj_property name="ElementShortName">this_ALU_Core_n_8</obj_property>
+      <obj_property name="ObjectShortName">this_ALU_Core_n_8</obj_property>
    </wvobject>
 </wave_config>

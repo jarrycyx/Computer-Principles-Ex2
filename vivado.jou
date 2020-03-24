@@ -10,3 +10,195 @@
 # Journal file: /home/cyx/Desktop/Ex2-Computer-Principles/vivado.jou
 #-----------------------------------------------------------
 start_gui
+open_project /home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+launch_simulation
+launch_simulation
+open_wave_config /home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_fsm_tb_behav.wcfg
+source CYX_HW_tb.tcl
+current_wave_config {EDA2_fsm_tb_behav.wcfg}
+add_wave {{/CYX_HW_tb/Carry_HW_tb}} {{/CYX_HW_tb/Zero_HW_tb}} {{/CYX_HW_tb/Overflow_HW_tb}} {{/CYX_HW_tb/CPR_RES_HW_tb}} {{/CYX_HW_tb/A_inv_HW_tb}} {{/CYX_HW_tb/B_inv_HW_tb}} {{/CYX_HW_tb/Oper_HW_tb}} {{/CYX_HW_tb/disp_res_tb}} {{/CYX_HW_tb/clk100MHz_tb}} {{/CYX_HW_tb/EN_tb}} {{/CYX_HW_tb/SEGs_tb}} {{/CYX_HW_tb/input_key_tb}} 
+save_wave_config {/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_fsm_tb_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config /home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_fsm_tb_behav.wcfg
+source CYX_HW_tb.tcl
+current_wave_config {EDA2_fsm_tb_behav.wcfg}
+add_wave {{/CYX_HW_tb/my_ALU_HW/R}} 
+current_wave_config {EDA2_fsm_tb_behav.wcfg}
+add_wave {{/CYX_HW_tb/my_ALU_HW/DISP}} 
+current_wave_config {EDA2_fsm_tb_behav.wcfg}
+add_wave {{/CYX_HW_tb/my_ALU_HW/DISP_EN}} 
+save_wave_config {/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_fsm_tb_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config /home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_fsm_tb_behav.wcfg
+source CYX_HW_tb.tcl
+current_wave_config {EDA2_fsm_tb_behav.wcfg}
+add_wave {{/CYX_HW_tb/my_ALU_HW/state}} 
+current_wave_config {EDA2_fsm_tb_behav.wcfg}
+add_wave {{/CYX_HW_tb/my_ALU_HW/num}} 
+save_wave_config {/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_fsm_tb_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config /home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_fsm_tb_behav.wcfg
+source CYX_HW_tb.tcl
+close_sim
+launch_simulation
+open_wave_config /home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_fsm_tb_behav.wcfg
+source CYX_HW_tb.tcl
+current_wave_config {EDA2_fsm_tb_behav.wcfg}
+add_wave {{/CYX_HW_tb/my_ALU_HW/A_HW}} 
+current_wave_config {EDA2_fsm_tb_behav.wcfg}
+add_wave {{/CYX_HW_tb/my_ALU_HW/B_HW}} 
+current_wave_config {EDA2_fsm_tb_behav.wcfg}
+add_wave {{/CYX_HW_tb/my_ALU_HW/RES_HW}} 
+save_wave_config {/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_fsm_tb_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config /home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_fsm_tb_behav.wcfg
+source CYX_HW_tb.tcl
+close_sim
+launch_simulation
+open_wave_config /home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_fsm_tb_behav.wcfg
+source CYX_HW_tb.tcl
+close_sim
+launch_simulation
+open_wave_config /home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_fsm_tb_behav.wcfg
+source CYX_HW_tb.tcl
+close_sim
+launch_simulation
+open_wave_config /home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_fsm_tb_behav.wcfg
+source CYX_HW_tb.tcl
+close_sim
+launch_simulation
+open_wave_config /home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_fsm_tb_behav.wcfg
+source CYX_HW_tb.tcl
+reset_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+launch_simulation -mode post-implementation -type timing
+open_wave_config /home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_fsm_tb_behav.wcfg
+source CYX_HW_tb.tcl
+current_wave_config {EDA2_fsm_tb_behav.wcfg}
+add_wave {{/CYX_HW_tb/my_ALU_HW/disp_res}} 
+current_wave_config {EDA2_fsm_tb_behav.wcfg}
+add_wave {{/CYX_HW_tb/my_ALU_HW/RES_HW}} 
+current_sim simulation_10
+close_sim
+launch_simulation
+open_wave_config /home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_fsm_tb_behav.wcfg
+source CYX_HW_tb.tcl
+save_wave_config {/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_fsm_tb_behav.wcfg}
+current_sim simulation_11
+close_sim
+launch_simulation -mode post-implementation -type timing
+open_wave_config /home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_fsm_tb_behav.wcfg
+source CYX_HW_tb.tcl
+current_sim simulation_12
+close_sim
+launch_simulation
+launch_simulation
+open_wave_config /home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_fsm_tb_behav.wcfg
+source CYX_HW_tb.tcl
+current_wave_config {EDA2_fsm_tb_behav.wcfg}
+add_wave {{/CYX_HW_tb/DISP_tb}} 
+save_wave_config {/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_fsm_tb_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config /home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_fsm_tb_behav.wcfg
+source CYX_HW_tb.tcl
+reset_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+current_sim simulation_13
+close_sim
+close_design
+launch_simulation -mode post-implementation -type timing
+open_wave_config /home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_fsm_tb_behav.wcfg
+source CYX_HW_tb.tcl
+launch_simulation -mode post-synthesis -type timing
+open_wave_config /home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_fsm_tb_behav.wcfg
+source CYX_HW_tb.tcl
+launch_simulation -mode post-implementation -type functional
+open_wave_config /home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_fsm_tb_behav.wcfg
+source CYX_HW_tb.tcl
+current_sim simulation_17
+close_sim
+launch_simulation -mode post-synthesis -type timing
+open_wave_config /home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_fsm_tb_behav.wcfg
+source CYX_HW_tb.tcl
+current_wave_config {EDA2_fsm_tb_behav.wcfg}
+add_wave {{/CYX_HW_tb/my_ALU_HW/my_Digits_Display/clk100MHz_IBUF_BUFG}} 
+current_sim simulation_15
+close_sim
+launch_simulation
+open_wave_config /home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_fsm_tb_behav.wcfg
+source CYX_HW_tb.tcl
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+save_wave_config {/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_fsm_tb_behav.wcfg}
+current_sim simulation_19
+close_sim
+close_design
+launch_simulation -mode post-synthesis -type timing
+open_wave_config /home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_fsm_tb_behav.wcfg
+source CYX_HW_tb.tcl
+current_wave_config {EDA2_fsm_tb_behav.wcfg}
+add_wave {{/CYX_HW_tb/state_tb}} 
+current_wave_config {EDA2_fsm_tb_behav.wcfg}
+add_wave {{/CYX_HW_tb/my_ALU_HW/state}} 
+current_sim simulation_20
+close_sim
+launch_simulation
+open_wave_config /home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_fsm_tb_behav.wcfg
+source CYX_HW_tb.tcl
+save_wave_config {/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_fsm_tb_behav.wcfg}
+current_sim simulation_21
+close_sim
+launch_simulation -mode post-synthesis -type timing
+open_wave_config /home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_fsm_tb_behav.wcfg
+source CYX_HW_tb.tcl
+set_property -name {xsim.simulate.log_all_signals} -value {true} -objects [get_filesets sim_1]
+set_property -name {xsim.simulate.saif_all_signals} -value {true} -objects [get_filesets sim_1]
+close_sim
+current_sim simulation_22
+close_sim
+current_sim simulation_18
+close_sim
+close_sim
+launch_simulation -mode post-synthesis -type timing
+open_wave_config /home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_fsm_tb_behav.wcfg
+source CYX_HW_tb.tcl
+current_wave_config {EDA2_fsm_tb_behav.wcfg}
+add_wave {{/CYX_HW_tb/my_ALU_HW/DISP}} 
+current_wave_config {EDA2_fsm_tb_behav.wcfg}
+add_wave {{/CYX_HW_tb/my_ALU_HW/DISP}} 
+save_wave_config {/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_fsm_tb_behav.wcfg}
+close_sim
+launch_simulation -mode post-synthesis -type timing
+open_wave_config /home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_fsm_tb_behav.wcfg
+source CYX_HW_tb.tcl
+current_wave_config {EDA2_fsm_tb_behav.wcfg}
+add_wave {{/CYX_HW_tb/my_ALU_HW}} 
+save_wave_config {/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_fsm_tb_behav.wcfg}
+close_sim
+launch_simulation -mode post-synthesis -type timing
+open_wave_config /home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_fsm_tb_behav.wcfg
+source CYX_HW_tb.tcl
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+close_sim
+close_design
+launch_simulation -mode post-synthesis -type timing
+open_wave_config /home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_fsm_tb_behav.wcfg
+source CYX_HW_tb.tcl
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+close_sim

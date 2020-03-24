@@ -2,5 +2,6 @@
 2019.1
 May 24 2019
 14:51:52
-/home/cyx/Desktop/EDA2/EDA2_TOP/EDA2_TOP.sim/sim_1/impl/func/xsim/EDA2_fsm_tb_func_impl.v,1575353169,verilog,,/home/cyx/Desktop/EDA2/EDA2_TOP/EDA2_TOP.srcs/sim_1/new/EDA2_fsm_tb.v,,EDA2_fsm;glbl,,,,,,,,
 /home/cyx/Desktop/EDA2/EDA2_TOP/EDA2_TOP.srcs/sim_1/new/EDA2_fsm_tb.v,1575352771,verilog,,,,EDA2_fsm_tb,,,,,,,,
+/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.sim/sim_1/impl/func/xsim/CYX_HW_tb_func_impl.v,1585052058,verilog,,/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.srcs/sim_1/new/CYX_HW_tb.v,,CYX_ALU_Core;CYX_ALU_HW;Dynamic_Display_HEX;glbl,,,,,,,,
+/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.srcs/sim_1/new/CYX_HW_tb.v,1585051724,verilog,,,,CYX_HW_tb,,,,,,,,

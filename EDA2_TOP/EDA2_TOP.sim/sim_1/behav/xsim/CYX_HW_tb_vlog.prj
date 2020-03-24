@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../EDA2_TOP.srcs/sources_1/new/CYX_ALU_Core.v" \
+"../../../../EDA2_TOP.srcs/sources_1/new/CYX_ALU_HW.v" \
+"../../../../EDA2_TOP.srcs/sources_1/new/Dynamic_Display_HEX.v" \
+"../../../../EDA2_TOP.srcs/sim_1/new/CYX_HW_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

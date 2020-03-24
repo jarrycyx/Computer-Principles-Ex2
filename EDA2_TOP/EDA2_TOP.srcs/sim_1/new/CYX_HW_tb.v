@@ -24,22 +24,28 @@ module CYX_HW_tb(
 
     );
     
-    reg Carry_HW_tb;
-    reg Zero_HW_tb;
-    reg Overflow_HW_tb;
-    reg CPR_RES_HW_tb;
+    wire Carry_HW_tb;
+    wire Zero_HW_tb;
+    wire Overflow_HW_tb;
+    wire CPR_RES_HW_tb;
     reg A_inv_HW_tb;
     reg B_inv_HW_tb;
     reg[1:0] Oper_HW_tb;
+    reg disp_res_tb;
     reg clk100MHz_tb;
-    reg[3:0] EN_tb;
-    reg[7:0] SEGs_tb;
+    wire[3:0] EN_tb;
+    wire[7:0] SEGs_tb;
     reg[4:0] input_key_tb;
+    wire[15:0] DISP_tb;
+    wire[1:0] state_tb;
     
     initial begin
         clk100MHz_tb = 0;
+        disp_res_tb = 0;
         input_key_tb = 5'b10000;
-        
+        Oper_HW_tb = 2'b00;
+        A_inv_HW_tb = 0;
+        B_inv_HW_tb = 0;
         
         #100 input_key_tb = 5'b10000;
         #100 input_key_tb = 5'b00001;
@@ -66,6 +72,7 @@ module CYX_HW_tb(
         #100 input_key_tb = 5'b01011;
         
         
+        #100 Oper_HW_tb = 2'b10;
         
         
         #100 input_key_tb = 5'b10000;
@@ -92,7 +99,7 @@ module CYX_HW_tb(
         #100 input_key_tb = 5'b10000;
         #100 input_key_tb = 5'b01001;
         
-        
+        #100 disp_res_tb = 1;
         
     end
     
@@ -108,9 +115,12 @@ module CYX_HW_tb(
         .A_inv_HW(A_inv_HW_tb),
         .B_inv_HW(B_inv_HW_tb),
         .Oper_HW(Oper_HW_tb),
+        .disp_res(disp_res_tb),
         .clk100MHz(clk100MHz_tb),
         .EN(EN_tb),
         .SEGs(SEGs_tb),
+        .DISP(DISP_tb),
+        .state(state_tb),
         .input_key(input_key_tb) // input key invalid value: 5'b1****
     );
 endmodule

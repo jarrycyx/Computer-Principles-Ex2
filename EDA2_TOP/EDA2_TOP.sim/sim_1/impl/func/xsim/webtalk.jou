@@ -2,11 +2,11 @@
 # Webtalk v2019.1 (64-bit)
 # SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
 # IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
-# Start of session at: Tue Dec  3 14:54:51 2019
-# Process ID: 17718
-# Current directory: /home/cyx/Desktop/EDA2/EDA2_TOP/EDA2_TOP.sim/sim_1/impl/func/xsim
-# Command line: wbtcv -mode batch -source /home/cyx/Desktop/EDA2/EDA2_TOP/EDA2_TOP.sim/sim_1/impl/func/xsim/xsim.dir/EDA2_fsm_tb_func_impl/webtalk/xsim_webtalk.tcl -notrace
-# Log file: /home/cyx/Desktop/EDA2/EDA2_TOP/EDA2_TOP.sim/sim_1/impl/func/xsim/webtalk.log
-# Journal file: /home/cyx/Desktop/EDA2/EDA2_TOP/EDA2_TOP.sim/sim_1/impl/func/xsim/webtalk.jou
+# Start of session at: Tue Mar 24 20:31:09 2020
+# Process ID: 15794
+# Current directory: /home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.sim/sim_1/impl/func/xsim
+# Command line: wbtcv -mode batch -source /home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.sim/sim_1/impl/func/xsim/xsim.dir/CYX_HW_tb_func_impl/webtalk/xsim_webtalk.tcl -notrace
+# Log file: /home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.sim/sim_1/impl/func/xsim/webtalk.log
+# Journal file: /home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.sim/sim_1/impl/func/xsim/webtalk.jou
 #-----------------------------------------------------------
-source /home/cyx/Desktop/EDA2/EDA2_TOP/EDA2_TOP.sim/sim_1/impl/func/xsim/xsim.dir/EDA2_fsm_tb_func_impl/webtalk/xsim_webtalk.tcl -notrace
+source /home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.sim/sim_1/impl/func/xsim/xsim.dir/CYX_HW_tb_func_impl/webtalk/xsim_webtalk.tcl -notrace

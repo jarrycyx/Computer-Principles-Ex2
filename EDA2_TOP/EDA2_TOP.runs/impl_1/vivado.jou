@@ -2,11 +2,11 @@
 # Vivado v2019.1 (64-bit)
 # SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
 # IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
-# Start of session at: Sun Mar 22 11:47:10 2020
-# Process ID: 8377
+# Start of session at: Tue Mar 24 20:44:59 2020
+# Process ID: 18421
 # Current directory: /home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.runs/impl_1
-# Command line: vivado -log CYX_ALU_Core.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source CYX_ALU_Core.tcl -notrace
-# Log file: /home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.runs/impl_1/CYX_ALU_Core.vdi
+# Command line: vivado -log CYX_ALU_HW.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source CYX_ALU_HW.tcl -notrace
+# Log file: /home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.runs/impl_1/CYX_ALU_HW.vdi
 # Journal file: /home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.runs/impl_1/vivado.jou
 #-----------------------------------------------------------
-source CYX_ALU_Core.tcl -notrace
+source CYX_ALU_HW.tcl -notrace

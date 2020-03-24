@@ -1,0 +1,7 @@
+Running: xsim.dir/CYX_HW_tb_func_impl/xsimk -simmode gui -wdb CYX_HW_tb_func_impl.wdb -simrunnum 0 -socket 52011
+Design successfully loaded
+Design Loading Memory Usage: 44272 KB (Peak: 44272 KB)
+Design Loading CPU Usage: 30 ms
+Simulation completed
+Simulation Memory Usage: 126528 KB (Peak: 183540 KB)
+Simulation CPU Usage: 60 ms

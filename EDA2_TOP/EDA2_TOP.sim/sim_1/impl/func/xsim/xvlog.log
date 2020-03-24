@@ -1,5 +1,7 @@
-INFO: [VRFC 10-2263] Analyzing Verilog file "/home/cyx/Desktop/EDA2/EDA2_TOP/EDA2_TOP.sim/sim_1/impl/func/xsim/EDA2_fsm_tb_func_impl.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module EDA2_fsm
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.sim/sim_1/impl/func/xsim/CYX_HW_tb_func_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CYX_ALU_Core
+INFO: [VRFC 10-311] analyzing module CYX_ALU_HW
+INFO: [VRFC 10-311] analyzing module Dynamic_Display_HEX
 INFO: [VRFC 10-311] analyzing module glbl
-INFO: [VRFC 10-2263] Analyzing Verilog file "/home/cyx/Desktop/EDA2/EDA2_TOP/EDA2_TOP.srcs/sim_1/new/EDA2_fsm_tb.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module EDA2_fsm_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.srcs/sim_1/new/CYX_HW_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CYX_HW_tb

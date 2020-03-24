@@ -2,14 +2,13 @@
 # Webtalk v2019.1 (64-bit)
 # SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
 # IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
-# Start of session at: Sat Mar 21 20:50:47 2020
-# Process ID: 47119
+# Start of session at: Tue Mar 24 19:33:49 2020
+# Process ID: 4455
 # Current directory: /home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.sim/sim_1/behav/xsim
-# Command line: wbtcv -mode batch -source /home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.sim/sim_1/behav/xsim/xsim.dir/CYX_ALU_Core_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+# Command line: wbtcv -mode batch -source /home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.sim/sim_1/behav/xsim/xsim.dir/CYX_HW_tb_behav/webtalk/xsim_webtalk.tcl -notrace
 # Log file: /home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.sim/sim_1/behav/xsim/webtalk.log
 # Journal file: /home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.sim/sim_1/behav/xsim/webtalk.jou
 #-----------------------------------------------------------
-source /home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.sim/sim_1/behav/xsim/xsim.dir/CYX_ALU_Core_tb_behav/webtalk/xsim_webtalk.tcl -notrace
-INFO: [Common 17-186] '/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.sim/sim_1/behav/xsim/xsim.dir/CYX_ALU_Core_tb_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Sat Mar 21 20:50:55 2020. For additional details about this file, please refer to the WebTalk help file at /tools/Xilinx/Vivado/2019.1/doc/webtalk_introduction.html.
-webtalk_transmit: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 387.887 ; gain = 0.000 ; free physical = 75 ; free virtual = 900
-INFO: [Common 17-206] Exiting Webtalk at Sat Mar 21 20:50:55 2020...
+source /home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.sim/sim_1/behav/xsim/xsim.dir/CYX_HW_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] '/home/cyx/Desktop/Ex2-Computer-Principles/EDA2_TOP/EDA2_TOP.sim/sim_1/behav/xsim/xsim.dir/CYX_HW_tb_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Tue Mar 24 19:33:53 2020. For additional details about this file, please refer to the WebTalk help file at /tools/Xilinx/Vivado/2019.1/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Tue Mar 24 19:33:53 2020...

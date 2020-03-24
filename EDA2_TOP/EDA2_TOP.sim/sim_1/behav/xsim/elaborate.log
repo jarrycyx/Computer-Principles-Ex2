@@ -1,6 +1,6 @@
 Vivado Simulator 2019.1
 Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
-Running: /tools/Xilinx/Vivado/2019.1/bin/unwrapped/lnx64.o/xelab -wto f1c687206e2645e0843012be57fb58f6 --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot CYX_ALU_Core_tb_behav xil_defaultlib.CYX_ALU_Core_tb xil_defaultlib.glbl -log elaborate.log 
+Running: /tools/Xilinx/Vivado/2019.1/bin/unwrapped/lnx64.o/xelab -wto f1c687206e2645e0843012be57fb58f6 --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot CYX_HW_tb_behav xil_defaultlib.CYX_HW_tb xil_defaultlib.glbl -log elaborate.log 
 Using 8 slave threads.
 Starting static elaboration
 Completed static elaboration
@@ -8,6 +8,9 @@ Starting simulation data flow analysis
 Completed simulation data flow analysis
 Time Resolution for simulation is 1ps
 Compiling module xil_defaultlib.CYX_ALU_Core
-Compiling module xil_defaultlib.CYX_ALU_Core_tb
+Compiling module xil_defaultlib.Digit_decoder
+Compiling module xil_defaultlib.Dynamic_Display_HEX
+Compiling module xil_defaultlib.CYX_ALU_HW
+Compiling module xil_defaultlib.CYX_HW_tb
 Compiling module xil_defaultlib.glbl
-Built simulation snapshot CYX_ALU_Core_tb_behav
+Built simulation snapshot CYX_HW_tb_behav
